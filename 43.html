@@ -1,0 +1,435 @@
+﻿<html>
+	
+<head>
+	<title>4.3</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript"><!--
+		var sTopicId = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+		if (top.frames.length == 0)
+			top.location.href = "SPARROW_Release_Note.html?" + sTopicId
+		else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+			top.FrameTOC.SelectTocItem(sTopicId);
+	</script>
+</head>
+
+<body>
+
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>4.3</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="SPARROW.html">SPARROW</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="SPARROW.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="431.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="422editing.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p class="rvps8"><span class="rvts23">Release Name: </span><span class="rvts22">SPARROW v4.3 (Eclipse Plugin 2.1)</span></p>
+<p class="rvps8"><span class="rvts23">Release Date: </span><span class="rvts22">2012/02/06</span></p>
+<p class="rvps3"><span class="rvts7">Features</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41"># 공통</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 체커 그룹 관리</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 클라이언트 분석 관리 시스템</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> GUI 시스템 관리</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 권한 설정 기능</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 체커 개선</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> JAVA 분석 지원</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts20"> </span><span class="rvts26">PMD 연동</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 결함리스트 필터 개선</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 결함 밀도 정보</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 한글 지원</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> Hudson / Jenkins Plugin</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> LDAP 지원</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 사용편의성 강화 </span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 성능 강화</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 패키지 개선</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts55">체커 그룹 관리</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 체커 그룹 설계</span></p>
+<p class="rvps2"><span class="rvts26">아래와 같이 분석할 체커 그룹을 설정하고 프로젝트 생성/수정시에 지정합니다. </span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem2.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts26">체커 그룹 설계 페이지를 통해 오류 설명을 볼 수 있으며, 분석할 체커를 설정하고 위험도를 변경할수 있습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem1.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 프로젝트 생성시 체커 그룹 지정</span></p>
+<p class="rvps2"><span class="rvts26">아래와 같이 프로젝트를 생성/수정시 체커 그룹을 지정하며, 분석시 지정한 그룹이 반영되어 분석을 진행합니다. </span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem6.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 클라이언트 분석 옵션에서 체커항목 제거</span></p>
+<p class="rvps2"><span class="rvts26">체커그룹 시스템으로 인해 기존 분석시 사용하던 checker.txt 와 Whislte GUI 에서 지정한 체커 목록 메뉴가 제거되었습니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps14"><span class="rvts55">클라이언트 분석 관리 시스템</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 여러개의 프로젝트 통합 분석 관리 </span></p>
+<p class="rvps2"><span class="rvts26">기존의 경우 한개의 프로젝트의 설정만 저장하여 사용하였으나, 분석 관리시스템을 통해 NEST에 등록된 모든 프로젝트의 설정을 저장하고 분석 할수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 설정 마법사를 통하여 프로젝트를 쉽게 생성</span></p>
+<p class="rvps2"><span class="rvts26">기존에 복잡했던 분석 설정을 단순화 하였으며, 설정 마법사를 통해 쉽게 프로젝트를 생성할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 비쥬얼 스튜디오 IDE 지원 </span></p>
+<p class="rvps2"><span class="rvts26"> 비쥬얼 스튜디오 분석시 IDE 에서 별도 설정이 필요 없으며 프로젝트 파일만 지정하여 분석이 가능합니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 멀티 프로젝트 전체분석 가능</span></p>
+<p class="rvps2"><span class="rvts26"> 여러개의 프로젝트를 선택하고 분석을 수행하면 전체 분석이 가능한 실행파일을 제공합니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem4.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps14"><span class="rvts55">GUI 시스템 관리</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts26">GUI 시스템 관리를 통해 SPARROW 서버 시작/중지, 상태 확인을 할 수 있습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem3.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps14"><span class="rvts55">권한 설정 기능</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 프로젝트를 분석, 결과를 공유할 그룹 지정</span></p>
+<p class="rvps2"><span class="rvts26">프로젝트 분석과 결과를 공유할 그룹을 지정합니다. 권한이 없는 사용자는 분석과 결과보기를 수행 할 수 없습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem5.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 권한 있는 프로젝트 검색</span></p>
+<p class="rvps2"><span class="rvts26">커맨드 라인의 경우 [ -U/user 아이디 -PL/projectlist ] 옵션을 사용하여 권한 있는 프로젝트를 검색 합니다. </span></p>
+<p class="rvps2"><span class="rvts26">분석 통합 관리시스템과 이클립스 플러그인은 로그인하면 자동으로 표시 됩니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 분석시 사용자를 입력</span></p>
+<p class="rvps2"><span class="rvts26">커맨드 라인의 경우 [ -U/user 아이디 ] 옵션을 사용하여 권한있는 프로젝트에 분석을 수행 합니다. </span></p>
+<p class="rvps2"><span class="rvts26">분석 통합 관리시스템과 이클립스 플러그인은 로그인하면 자동으로 입력 됩니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps14"><span class="rvts55">체커 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 신규 Java 체커 추가</span></p>
+<p class="rvps2"><span class="rvts26">Java 체커에 관해서 20개의 체커가 추가 변경되었습니다. 아래는 현재 지원하고 있는 </span><a class="rvts44" href="Javacheckers.html">JAVA 체커 목록</a><span class="rvts26"> 중 신규 추가 변경된 목록입니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<div class="rvps2"><table width="100%" border="1" cellpadding="1" cellspacing="2" style="border-color: #000000; border-style: solid;">
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps37"><span class="rvts39">Checker</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps37"><span class="rvts39">Description</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">SQL_INJECTION</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts10">SQL Injection 공격은 클라이언트에서 응용프로그램으로 들어가는 입력데이터를 통하여 SQL Query를 삽입 혹은 “주입”을 함으로써 이루어진다. SQL Injection 에 성공하면, 공격자는 데이터베이스로부터 민감한 데이터를 읽거나, 수정하거나 (삽입/업데이트/ 삭제), 데이터베이스에 관리작업 명령어(i.e. 데이터베이스 종료)를 수행할 수 있고, 데이터베이스상에 존재하는 파일 중에, 운영체제관련 명령어들이 기록되어 있을 수 있는 파일을 얻어올 수 있다.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">DIVDE_BY_ZERO</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts10">프로그램에</span><span class="rvts49"> </span><span class="rvts10">예상되지</span><span class="rvts49"> </span><span class="rvts10">않는</span><span class="rvts49"> </span><span class="rvts10">값이</span><span class="rvts49"> </span><span class="rvts10">들어오거나</span><span class="rvts49">, </span><span class="rvts10">적절하게</span><span class="rvts49"> </span><span class="rvts10">탐지되지</span><span class="rvts49"> </span><span class="rvts10">않은</span><span class="rvts49"> </span><span class="rvts10">오류가</span><span class="rvts49"> </span><span class="rvts10">발생했을</span><span class="rvts49"> </span><span class="rvts10">경우</span><span class="rvts49"> </span><span class="rvts10">생긴다</span><span class="rvts49">. </span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">결함은</span><span class="rvts49"> </span><span class="rvts10">예를</span><span class="rvts49"> </span><span class="rvts10">들어서</span><span class="rvts49">, </span><span class="rvts10">크기</span><span class="rvts49">, </span><span class="rvts10">길이</span><span class="rvts49">, </span><span class="rvts10">너비</span><span class="rvts49">, </span><span class="rvts10">높이</span><span class="rvts49"> </span><span class="rvts10">등의</span><span class="rvts49"> </span><span class="rvts10">실제</span><span class="rvts49"> </span><span class="rvts10">치수를</span><span class="rvts49"> </span><span class="rvts10">계산하는</span><span class="rvts49"> </span><span class="rvts10">과정에서</span><span class="rvts49"> </span><span class="rvts10">종종</span><span class="rvts49"> </span><span class="rvts10">발생한다</span><span class="rvts49">. Divide by Zero </span><span class="rvts10">는</span><span class="rvts49"> </span><span class="rvts10">프로그램의</span><span class="rvts49"> </span><span class="rvts10">비정상적인</span><span class="rvts49"> </span><span class="rvts10">종료와</span><span class="rvts49"> </span><span class="rvts10">서비스</span><span class="rvts49"> </span><span class="rvts10">거부</span><span class="rvts49">(Denial of Service)</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">야기할</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">BAD_EQ</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts10">두</span><span class="rvts49"> </span><span class="rvts10">개의</span><span class="rvts49"> object</span><span class="rvts10">를</span><span class="rvts49"> &nbsp;“==” </span><span class="rvts10">연산자</span><span class="rvts49"> </span><span class="rvts10">또는</span><span class="rvts49"> “equals()” </span><span class="rvts10">로</span><span class="rvts49"> </span><span class="rvts10">비교할</span><span class="rvts49"> </span><span class="rvts10">경우</span><span class="rvts49">, </span><span class="rvts10">잘못된</span><span class="rvts49"> </span><span class="rvts10">비교는</span><span class="rvts49"> </span><span class="rvts10">프로그램의</span><span class="rvts49"> </span><span class="rvts10">오작동을</span><span class="rvts49"> </span><span class="rvts10">유발하고</span><span class="rvts49">, </span><span class="rvts10">오류를</span><span class="rvts49"> </span><span class="rvts10">진단하기</span><span class="rvts49"> </span><span class="rvts10">어렵게</span><span class="rvts49"> </span><span class="rvts10">만든다</span><span class="rvts49">. </span><span class="rvts10">대부분의</span><span class="rvts49"> </span><span class="rvts10">경우</span><span class="rvts49">, </span><span class="rvts10">자바의</span><span class="rvts49"> object</span><span class="rvts10">는</span><span class="rvts49"> equals method</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">사용하여</span><span class="rvts49"> </span><span class="rvts10">비교한다</span><span class="rvts49">. </span><span class="rvts10">그러나</span><span class="rvts49"> </span><span class="rvts10">효율성을</span><span class="rvts49"> </span><span class="rvts10">이유로</span><span class="rvts49"> </span><span class="rvts10">간혹</span><span class="rvts49"> objects</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">효율적으로</span><span class="rvts49"> </span><span class="rvts10">구성하기</span><span class="rvts49"> </span><span class="rvts10">위해서</span><span class="rvts49"> “equals()” </span><span class="rvts10">와</span><span class="rvts49"> </span><span class="rvts10">동일한</span><span class="rvts49"> </span><span class="rvts10">의미로</span><span class="rvts49"> </span><span class="rvts10">사용할</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있는</span><span class="rvts49"> “==” </span><span class="rvts10">연산자를</span><span class="rvts49"> </span><span class="rvts10">사용하여</span><span class="rvts49"> </span><span class="rvts10">비교를</span><span class="rvts49"> </span><span class="rvts10">하게</span><span class="rvts49"> </span><span class="rvts10">된다</span><span class="rvts49">. </span><span class="rvts10">그러므로</span><span class="rvts49"> Structural </span><span class="rvts10">비교를</span><span class="rvts49"> </span><span class="rvts10">수행하기</span><span class="rvts49"> </span><span class="rvts10">위한</span><span class="rvts49"> “equals()”, Referential </span><span class="rvts10">비교를</span><span class="rvts49"> </span><span class="rvts10">수행하기</span><span class="rvts49"> </span><span class="rvts10">위한</span><span class="rvts49"> “==” </span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">일관성</span><span class="rvts49"> </span><span class="rvts10">없이</span><span class="rvts49"> </span><span class="rvts10">사용되는</span><span class="rvts49"> </span><span class="rvts10">경우는</span><span class="rvts49"> </span><span class="rvts10">프로그램</span><span class="rvts49"> </span><span class="rvts10">작성자가</span><span class="rvts49"> </span><span class="rvts10">의도하지</span><span class="rvts49"> </span><span class="rvts10">않은</span><span class="rvts49"> </span><span class="rvts10">것일</span><span class="rvts49"> </span><span class="rvts10">수도</span><span class="rvts49"> </span><span class="rvts10">있으므로</span><span class="rvts49"> </span><span class="rvts10">경고를</span><span class="rvts49"> </span><span class="rvts10">내</span><span class="rvts49"> </span><span class="rvts10">주는</span><span class="rvts49"> </span><span class="rvts10">것이</span><span class="rvts49"> </span><span class="rvts10">좋다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">BAD_OVERRIDE</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts49">method </span><span class="rvts10">들이</span><span class="rvts49"> </span><span class="rvts10">잘못</span><span class="rvts49"> overriding </span><span class="rvts10">되는</span><span class="rvts49"> </span><span class="rvts10">경우</span><span class="rvts49"> 2</span><span class="rvts10">가지를</span><span class="rvts49"> </span><span class="rvts10">선별하여</span><span class="rvts49"> </span><span class="rvts10">문제를</span><span class="rvts49"> </span><span class="rvts10">보고</span><span class="rvts49"> </span><span class="rvts10">한다</span><span class="rvts49">. &nbsp;</span></p>
+<p class="rvps42"><span class="rvts10">첫</span><span class="rvts49"> </span><span class="rvts10">번째</span><span class="rvts49"> </span><span class="rvts10">경우는</span><span class="rvts49">, </span><span class="rvts10">어떤</span><span class="rvts49"> </span><span class="rvts10">클래스를</span><span class="rvts49"> </span><span class="rvts10">상속한</span><span class="rvts49"> </span><span class="rvts10">클래스에서</span><span class="rvts49"> </span><span class="rvts10">특정</span><span class="rvts49"> method</span><span class="rvts10">를</span><span class="rvts49"> overriding </span><span class="rvts10">하는</span><span class="rvts49"> </span><span class="rvts10">경우인데</span><span class="rvts49">, </span><span class="rvts10">이</span><span class="rvts49"> method</span><span class="rvts10">의</span><span class="rvts49"> </span><span class="rvts10">인자의</span><span class="rvts49"> </span><span class="rvts10">타입이</span><span class="rvts49"> </span><span class="rvts10">부모의</span><span class="rvts49"> </span><span class="rvts10">인자타입과</span><span class="rvts49"> </span><span class="rvts10">이름은</span><span class="rvts49"> </span><span class="rvts10">같지만</span><span class="rvts49"> </span><span class="rvts10">패키지</span><span class="rvts49"> </span><span class="rvts10">이름이</span><span class="rvts49"> </span><span class="rvts10">다를</span><span class="rvts49"> </span><span class="rvts10">경우이다</span><span class="rvts49">. </span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">경우는</span><span class="rvts49"> </span><span class="rvts10">언뜻</span><span class="rvts49"> </span><span class="rvts10">부모클래스의</span><span class="rvts49"> method</span><span class="rvts10">를</span><span class="rvts49"> overriding </span><span class="rvts10">하는</span><span class="rvts49"> </span><span class="rvts10">것</span><span class="rvts49"> </span><span class="rvts10">같지만</span><span class="rvts49">, </span><span class="rvts10">잘</span><span class="rvts49"> </span><span class="rvts10">못</span><span class="rvts49"> overriding </span><span class="rvts10">하게</span><span class="rvts49"> </span><span class="rvts10">되어서</span><span class="rvts49">, </span><span class="rvts10">원하지</span><span class="rvts49"> </span><span class="rvts10">않는</span><span class="rvts49"> </span><span class="rvts10">결과가</span><span class="rvts49"> </span><span class="rvts10">프로그램의</span><span class="rvts49"> </span><span class="rvts10">예상치</span><span class="rvts49"> </span><span class="rvts10">않는</span><span class="rvts49"> </span><span class="rvts10">종료를</span><span class="rvts49"> </span><span class="rvts10">야기할</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있으므로</span><span class="rvts49"> </span><span class="rvts10">미리</span><span class="rvts49"> </span><span class="rvts10">탐지하는</span><span class="rvts49"> </span><span class="rvts10">것이</span><span class="rvts49"> </span><span class="rvts10">좋다</span><span class="rvts49">.</span></p>
+<p class="rvps42"><span class="rvts10">두</span><span class="rvts49"> </span><span class="rvts10">번째</span><span class="rvts49"> </span><span class="rvts10">경우는</span><span class="rvts49">, </span><span class="rvts10">어떤</span><span class="rvts49"> </span><span class="rvts10">클래스를</span><span class="rvts49"> </span><span class="rvts10">상속한</span><span class="rvts49"> </span><span class="rvts10">클래스에서</span><span class="rvts49"> </span><span class="rvts10">특정</span><span class="rvts49"> method</span><span class="rvts10">가</span><span class="rvts49"> </span><span class="rvts10">대소문자를</span><span class="rvts49"> </span><span class="rvts10">무시하면</span><span class="rvts49"> </span><span class="rvts10">이름이</span><span class="rvts49"> </span><span class="rvts10">똑</span><span class="rvts49"> </span><span class="rvts10">같은</span><span class="rvts49"> </span><span class="rvts10">경우이다</span><span class="rvts49">. </span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">경우는</span><span class="rvts49"> </span><span class="rvts10">프로그램</span><span class="rvts49"> </span><span class="rvts10">작성자가</span><span class="rvts49"> </span><span class="rvts10">부모클래스의</span><span class="rvts49"> method</span><span class="rvts10">를</span><span class="rvts49"> Override </span><span class="rvts10">하려고</span><span class="rvts49"> </span><span class="rvts10">작성한</span><span class="rvts49"> </span><span class="rvts10">것이지만</span><span class="rvts49">, Java </span><span class="rvts10">문법에서는</span><span class="rvts49"> </span><span class="rvts10">대소문자를</span><span class="rvts49"> </span><span class="rvts10">구별하기</span><span class="rvts49"> </span><span class="rvts10">때문에</span><span class="rvts49">, </span><span class="rvts10">프로그램이</span><span class="rvts49"> </span><span class="rvts10">의도한대로</span><span class="rvts49"> </span><span class="rvts10">동작하지</span><span class="rvts49"> </span><span class="rvts10">않는</span><span class="rvts49"> </span><span class="rvts10">경우가</span><span class="rvts49"> </span><span class="rvts10">발생한다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">CALL_SUPER</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts10">어떤</span><span class="rvts49"> </span><span class="rvts10">클래스의</span><span class="rvts49"> method</span><span class="rvts10">가</span><span class="rvts49"> overriding </span><span class="rvts10">되었을</span><span class="rvts49"> </span><span class="rvts10">경우</span><span class="rvts49">, </span><span class="rvts10">이를</span><span class="rvts49"> overriding </span><span class="rvts10">하는</span><span class="rvts49"> </span><span class="rvts10">대부분의</span><span class="rvts49"> method </span><span class="rvts10">들이</span><span class="rvts49"> </span><span class="rvts10">부모클래스의</span><span class="rvts49"> method</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">호출한다면</span><span class="rvts49">, </span><span class="rvts10">부모</span><span class="rvts49"> </span><span class="rvts10">클래스의</span><span class="rvts49"> method</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">호출하지</span><span class="rvts49"> </span><span class="rvts10">않는</span><span class="rvts49"> </span><span class="rvts10">경우에는</span><span class="rvts49"> </span><span class="rvts10">경고를</span><span class="rvts49"> </span><span class="rvts10">낸다</span><span class="rvts49">. </span><span class="rvts10">왜냐하면</span><span class="rvts49">, </span><span class="rvts10">보통</span><span class="rvts49"> </span><span class="rvts10">부모클래스에</span><span class="rvts49"> </span><span class="rvts10">있는</span><span class="rvts49"> method</span><span class="rvts10">들은</span><span class="rvts49"> </span><span class="rvts10">기본적으로</span><span class="rvts49"> </span><span class="rvts10">수행해야</span><span class="rvts49"> </span><span class="rvts10">할</span><span class="rvts49"> </span><span class="rvts10">동작들이</span><span class="rvts49"> method </span><span class="rvts10">안에</span><span class="rvts49"> </span><span class="rvts10">구현되어</span><span class="rvts49"> </span><span class="rvts10">있는데</span><span class="rvts49"> </span><span class="rvts10">이를</span><span class="rvts49"> </span><span class="rvts10">호출</span><span class="rvts49"> </span><span class="rvts10">하지</span><span class="rvts49"> </span><span class="rvts10">않는</span><span class="rvts49"> </span><span class="rvts10">경우는</span><span class="rvts49"> </span><span class="rvts10">프로그램이</span><span class="rvts49"> </span><span class="rvts10">잘</span><span class="rvts49"> </span><span class="rvts10">못</span><span class="rvts49"> </span><span class="rvts10">동작하게</span><span class="rvts49"> </span><span class="rvts10">하는</span><span class="rvts49"> </span><span class="rvts10">주</span><span class="rvts49"> </span><span class="rvts10">원인이</span><span class="rvts49"> </span><span class="rvts10">될</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">CLASSCAST</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts49">Container </span><span class="rvts10">로</span><span class="rvts49"> </span><span class="rvts10">여러</span><span class="rvts49"> </span><span class="rvts10">특정</span><span class="rvts49"> type</span><span class="rvts10">을</span><span class="rvts49"> </span><span class="rvts10">갖는</span><span class="rvts49"> element</span><span class="rvts10">들을</span><span class="rvts49"> </span><span class="rvts10">입력하고</span><span class="rvts49"> </span><span class="rvts10">난</span><span class="rvts49"> </span><span class="rvts10">뒤</span><span class="rvts49">, Container</span><span class="rvts10">에서</span><span class="rvts49"> </span><span class="rvts10">다시</span><span class="rvts49"> </span><span class="rvts10">꺼내</span><span class="rvts49"> </span><span class="rvts10">쓸때는</span><span class="rvts49"> </span><span class="rvts10">다른</span><span class="rvts49"> type</span><span class="rvts10">으로</span><span class="rvts49"> downcast </span><span class="rvts10">할</span><span class="rvts49"> </span><span class="rvts10">경우</span><span class="rvts49"> </span><span class="rvts10">경고를</span><span class="rvts49"> </span><span class="rvts10">낸다</span><span class="rvts49">. </span><span class="rvts10">이러한</span><span class="rvts49"> </span><span class="rvts10">일이</span><span class="rvts49"> </span><span class="rvts10">일어나는</span><span class="rvts49"> </span><span class="rvts10">코드는</span><span class="rvts49"> </span><span class="rvts10">주로</span><span class="rvts49"> Java Version 1.5 </span><span class="rvts10">보다</span><span class="rvts49"> </span><span class="rvts10">이전</span><span class="rvts49"> </span><span class="rvts10">것으로서</span><span class="rvts49">, Container </span><span class="rvts10">로부터</span><span class="rvts49"> element</span><span class="rvts10">들을</span><span class="rvts49"> </span><span class="rvts10">꺼낼</span><span class="rvts49"> </span><span class="rvts10">때</span><span class="rvts49"> cast</span><span class="rvts10">가</span><span class="rvts49"> </span><span class="rvts10">필요하기</span><span class="rvts49"> </span><span class="rvts10">때문이다</span><span class="rvts49">. </span><span class="rvts10">잘못된</span><span class="rvts49"> type</span><span class="rvts10">으로</span><span class="rvts49"> cast</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">시도하려고</span><span class="rvts49"> </span><span class="rvts10">할</span><span class="rvts49"> </span><span class="rvts10">때</span><span class="rvts49"> </span><span class="rvts10">응용프로그램은</span><span class="rvts49"> ClassCastException </span><span class="rvts10">에러를</span><span class="rvts49"> </span><span class="rvts10">실행도중</span><span class="rvts49"> </span><span class="rvts10">발생시키게</span><span class="rvts49"> </span><span class="rvts10">된다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">ITERATOR</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts10">Iterator 및 ListIterator 에서 next() 혹은 previous() 를 호출할 때, 진행할 element가 없을 경우, NoSuchElementException 을 발생시키게 된다. 이럴 경우, 프로그램이 비정상적으로 종료될 수도 있기 때문에 경고를 한다.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">MUTABLE_COMPARISON</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts10">특정</span><span class="rvts49"> </span><span class="rvts10">두</span><span class="rvts49"> instance</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">비교하기</span><span class="rvts49"> </span><span class="rvts10">위해서</span><span class="rvts49">(</span><span class="rvts10">주로</span><span class="rvts49"> sorting</span><span class="rvts10">에</span><span class="rvts49"> </span><span class="rvts10">사용됨</span><span class="rvts49">) </span><span class="rvts10">흔히</span><span class="rvts49"> Comparable.compareTo() </span><span class="rvts10">메소드를</span><span class="rvts49"> overriding</span><span class="rvts10">하여</span><span class="rvts49"> </span><span class="rvts10">쓰게</span><span class="rvts49"> </span><span class="rvts10">되는데</span><span class="rvts49">, final</span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">아닌</span><span class="rvts49"> field</span><span class="rvts10">들이나</span><span class="rvts49"> mutable field</span><span class="rvts10">들이</span><span class="rvts49"> </span><span class="rvts10">읽혀질</span><span class="rvts49"> </span><span class="rvts10">경우에는</span><span class="rvts49"> </span><span class="rvts10">올바른</span><span class="rvts49"> </span><span class="rvts10">비교가</span><span class="rvts49"> </span><span class="rvts10">될</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">없기</span><span class="rvts49"> </span><span class="rvts10">때문에</span><span class="rvts49"> </span><span class="rvts10">경고를</span><span class="rvts49"> </span><span class="rvts10">한다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">MUTABLE_HASHCODE</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts10">보통</span><span class="rvts49"> </span><span class="rvts10">특정</span><span class="rvts49"> </span><span class="rvts10">클래스의</span><span class="rvts49"> hash</span><span class="rvts10">값을</span><span class="rvts49"> </span><span class="rvts10">구하기</span><span class="rvts49"> </span><span class="rvts10">위해서</span><span class="rvts49">, Object.hashCode() </span><span class="rvts10">를</span><span class="rvts49"> overriding </span><span class="rvts10">하는</span><span class="rvts49"> </span><span class="rvts10">것은</span><span class="rvts49"> </span><span class="rvts10">기본적인</span><span class="rvts49"> </span><span class="rvts10">방법이다</span><span class="rvts49">. </span><span class="rvts10">하지만</span><span class="rvts49"> hash</span><span class="rvts10">값을</span><span class="rvts49"> </span><span class="rvts10">구하기</span><span class="rvts49"> </span><span class="rvts10">위해서</span><span class="rvts49"> mutable </span><span class="rvts10">한</span><span class="rvts49"> field</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">읽어서</span><span class="rvts49"> hashCode()</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">구현하게</span><span class="rvts49"> </span><span class="rvts10">되면</span><span class="rvts49"> </span><span class="rvts10">문제가</span><span class="rvts49"> </span><span class="rvts10">발생한다</span><span class="rvts49">. hashCode()</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">잘못</span><span class="rvts49"> </span><span class="rvts10">구현하면</span><span class="rvts49"> Hash </span><span class="rvts10">구조의</span><span class="rvts49"> </span><span class="rvts10">특성상</span><span class="rvts49">, key/value </span><span class="rvts10">쌍의</span><span class="rvts49"> mapping</span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">맞지</span><span class="rvts49"> </span><span class="rvts10">않게</span><span class="rvts49"> </span><span class="rvts10">된다</span><span class="rvts49">. </span><span class="rvts10">이로</span><span class="rvts49"> </span><span class="rvts10">인해서</span><span class="rvts49"> </span><span class="rvts10">생기는</span><span class="rvts49"> </span><span class="rvts10">문제들에</span><span class="rvts49"> </span><span class="rvts10">대하여</span><span class="rvts49"> </span><span class="rvts10">예를</span><span class="rvts49"> </span><span class="rvts10">든다면</span><span class="rvts49">, hash</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">이용하여</span><span class="rvts49"> cache</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">구현하게</span><span class="rvts49"> </span><span class="rvts10">된다면</span><span class="rvts49">, </span><span class="rvts10">예상한</span><span class="rvts49"> </span><span class="rvts10">것보다</span><span class="rvts49"> </span><span class="rvts10">많은</span><span class="rvts49"> cache miss</span><span class="rvts10">가</span><span class="rvts49"> </span><span class="rvts10">생기게</span><span class="rvts49"> </span><span class="rvts10">된다</span><span class="rvts49">. </span><span class="rvts10">또한</span><span class="rvts49"> Hash Table</span><span class="rvts10">의</span><span class="rvts49"> key </span><span class="rvts10">값을</span><span class="rvts49"> </span><span class="rvts10">이용하여</span><span class="rvts49"> </span><span class="rvts10">값을</span><span class="rvts49"> </span><span class="rvts10">참조하게</span><span class="rvts49"> </span><span class="rvts10">된다면</span><span class="rvts49"> Null Pointer Exception</span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">발생하여</span><span class="rvts49"> </span><span class="rvts10">프로그램이</span><span class="rvts49"> </span><span class="rvts10">정상적으로</span><span class="rvts49"> </span><span class="rvts10">종료되지</span><span class="rvts49"> </span><span class="rvts10">않을</span><span class="rvts49"> </span><span class="rvts10">수도</span><span class="rvts49"> </span><span class="rvts10">있다</span><span class="rvts49">. </span><span class="rvts10">이</span><span class="rvts49"> Checker</span><span class="rvts10">는</span><span class="rvts49"> Object.hashCode() </span><span class="rvts10">를</span><span class="rvts49"> overriding method</span><span class="rvts10">가</span><span class="rvts49"> final </span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">아닌</span><span class="rvts49"> field </span><span class="rvts10">값을</span><span class="rvts49"> </span><span class="rvts10">읽을</span><span class="rvts49"> </span><span class="rvts10">때</span><span class="rvts49"> </span><span class="rvts10">경고를</span><span class="rvts49"> </span><span class="rvts10">낸다</span><span class="rvts49">. </span></p>
+<p class="rvps42"><span class="rvts10">추가적으로</span><span class="rvts49">, </span><span class="rvts10">몇몇</span><span class="rvts49"> </span><span class="rvts10">상황에서</span><span class="rvts49"> final </span><span class="rvts10">키워드가</span><span class="rvts49"> </span><span class="rvts10">사용되지</span><span class="rvts49"> </span><span class="rvts10">않았더라도</span><span class="rvts49">, field</span><span class="rvts10">가</span><span class="rvts49"> </span><span class="rvts10">초기화</span><span class="rvts49"> </span><span class="rvts10">된</span><span class="rvts49"> </span><span class="rvts10">이후에</span><span class="rvts49"> </span><span class="rvts10">한번도</span><span class="rvts49"> </span><span class="rvts10">값이</span><span class="rvts49"> </span><span class="rvts10">변하지</span><span class="rvts49"> </span><span class="rvts10">않았다면</span><span class="rvts49"> final field</span><span class="rvts10">로</span><span class="rvts49"> </span><span class="rvts10">간주한다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">PRIVATE_COLLECTION</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts10">특정</span><span class="rvts49"> </span><span class="rvts10">클래스</span><span class="rvts49"> </span><span class="rvts10">안에</span><span class="rvts49"> </span><span class="rvts10">있는</span><span class="rvts49"> Collection type</span><span class="rvts10">의</span><span class="rvts49"> private field</span><span class="rvts10">들은</span><span class="rvts49"> private </span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">아닌</span><span class="rvts49"> method</span><span class="rvts10">들에</span><span class="rvts49"> </span><span class="rvts10">의해서</span><span class="rvts49"> reference</span><span class="rvts10">가</span><span class="rvts49"> </span><span class="rvts10">반환된다면</span><span class="rvts49"> </span><span class="rvts10">문제가</span><span class="rvts49"> </span><span class="rvts10">생길</span><span class="rvts49"> </span><span class="rvts10">소지가</span><span class="rvts49"> </span><span class="rvts10">있다</span><span class="rvts49">. private </span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">아닌</span><span class="rvts49"> method</span><span class="rvts10">들에</span><span class="rvts49"> </span><span class="rvts10">의해서</span><span class="rvts49"> </span><span class="rvts10">반환된</span><span class="rvts49"> reference</span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">이용하여</span><span class="rvts49"> private field </span><span class="rvts10">의</span><span class="rvts49"> </span><span class="rvts10">값이</span><span class="rvts49"> </span><span class="rvts10">변경될</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있기</span><span class="rvts49"> </span><span class="rvts10">때문이다</span><span class="rvts49">. </span><span class="rvts10">이는</span><span class="rvts49"> </span><span class="rvts10">보안상</span><span class="rvts49"> </span><span class="rvts10">치명적인</span><span class="rvts49"> </span><span class="rvts10">문제가</span><span class="rvts49"> </span><span class="rvts10">될</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있다</span><span class="rvts49">. (</span><span class="rvts10">사용자</span><span class="rvts49"> </span><span class="rvts10">정보</span><span class="rvts49"> </span><span class="rvts10">유출</span><span class="rvts49"> </span><span class="rvts10">가능성</span><span class="rvts49">)</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">SET_STATIC_IN_NON_STATIC</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts49">static field</span><span class="rvts10">가</span><span class="rvts49"> static </span><span class="rvts10">이</span><span class="rvts49"> </span><span class="rvts10">아닌</span><span class="rvts49"> method</span><span class="rvts10">에서</span><span class="rvts49"> </span><span class="rvts10">값이</span><span class="rvts49"> </span><span class="rvts10">변경될</span><span class="rvts49"> </span><span class="rvts10">때</span><span class="rvts49">, </span><span class="rvts10">문제가</span><span class="rvts49"> </span><span class="rvts10">생길</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있으므로</span><span class="rvts49"> </span><span class="rvts10">경고를</span><span class="rvts49"> </span><span class="rvts10">낸다</span><span class="rvts49">. </span><span class="rvts10">보통</span><span class="rvts49"> static field</span><span class="rvts10">는</span><span class="rvts49"> </span><span class="rvts10">특별한</span><span class="rvts49"> </span><span class="rvts10">경우를</span><span class="rvts49"> </span><span class="rvts10">제외하고는</span><span class="rvts49">, static method</span><span class="rvts10">에서만</span><span class="rvts49"> access</span><span class="rvts10">되어야</span><span class="rvts49"> </span><span class="rvts10">하지만</span><span class="rvts49">, </span><span class="rvts10">그렇지</span><span class="rvts49"> </span><span class="rvts10">않은</span><span class="rvts49"> </span><span class="rvts10">경우에는</span><span class="rvts49"> </span><span class="rvts10">프로그램이</span><span class="rvts49"> </span><span class="rvts10">예상치</span><span class="rvts49"> </span><span class="rvts10">않은</span><span class="rvts49"> </span><span class="rvts10">결과를</span><span class="rvts49"> </span><span class="rvts10">낼</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">VIRTUAL_IN_CTOR</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts10">부모</span><span class="rvts49"> </span><span class="rvts10">클래스의</span><span class="rvts49"> Constructor </span><span class="rvts10">안에서</span><span class="rvts49"> virtual function</span><span class="rvts10">을</span><span class="rvts49"> </span><span class="rvts10">호출하게</span><span class="rvts49"> </span><span class="rvts10">되면</span><span class="rvts49"> </span><span class="rvts10">자식클래스의</span><span class="rvts49"> field</span><span class="rvts10">가</span><span class="rvts49"> </span><span class="rvts10">초기화되기</span><span class="rvts49"> </span><span class="rvts10">전에</span><span class="rvts49"> </span><span class="rvts10">읽게</span><span class="rvts49"> </span><span class="rvts10">되는</span><span class="rvts49"> </span><span class="rvts10">문제를</span><span class="rvts49"> </span><span class="rvts10">야기한다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">FORWARD_NULL</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts49">Reference 변수의 null 확인을 하고나서, 나중에 역참조되는 경우의 코드를 찾아낸다. null reference 를 역참조하는 것은 프로그램 실행 중에 NullPointerException 을 발생 시키고 이는 프로그램 실행을 비 정상적으로 종료 시키는 원인이 된다. 이 에러가 나는 원인은 크게 두 가지가 있는데, 첫 번째는 null 을 확인 하였지만, null을 처리하는 코드가 적절하지 않은 경우이고, 두 번째는 코드의 실행경로 중에 null 확인을 하지 않은 경우이다</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">CLASS_COMMENT</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps40"><span class="rvts10">코드에</span><span class="rvts32"> </span><span class="rvts10">선언된</span><span class="rvts32"> </span><span class="rvts10">클래스에</span><span class="rvts32"> </span><span class="rvts10">대한</span><span class="rvts32"> </span><span class="rvts10">주석을</span><span class="rvts32"> </span><span class="rvts10">사전에</span><span class="rvts32"> </span><span class="rvts10">정의된</span><span class="rvts32"> </span><span class="rvts10">클래스</span><span class="rvts32"> </span><span class="rvts10">주석</span><span class="rvts32"> </span><span class="rvts10">형식에</span><span class="rvts32"> </span><span class="rvts10">따라</span><span class="rvts32"> </span><span class="rvts10">확인한다</span><span class="rvts33">.</span><span class="rvts32"> </span><span class="rvts10">추가적으로</span><span class="rvts32"> </span><span class="rvts10">주석</span><span class="rvts32"> </span><span class="rvts10">내에</span><span class="rvts32"> </span><span class="rvts10">클래스</span><span class="rvts32"> </span><span class="rvts10">이름을</span><span class="rvts32"> </span><span class="rvts10">기재하는</span><span class="rvts32"> </span><span class="rvts10">형식의</span><span class="rvts32"> </span><span class="rvts10">경우</span><span class="rvts32"> </span><span class="rvts10">올바른</span><span class="rvts32"> </span><span class="rvts10">클래스</span><span class="rvts32"> </span><span class="rvts10">이름을</span><span class="rvts32"> </span><span class="rvts10">기재했는지</span><span class="rvts32"> </span><span class="rvts10">확인한다</span><span class="rvts33">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">FIELD_COMMENT</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps40"><span class="rvts10">코드에</span><span class="rvts32"> </span><span class="rvts10">선언된</span><span class="rvts32"> </span><span class="rvts10">필드에</span><span class="rvts32"> </span><span class="rvts10">대한</span><span class="rvts32"> </span><span class="rvts10">주석을</span><span class="rvts32"> </span><span class="rvts10">사전에</span><span class="rvts32"> </span><span class="rvts10">정의된</span><span class="rvts32"> </span><span class="rvts10">필드</span><span class="rvts32"> </span><span class="rvts10">주석</span><span class="rvts32"> </span><span class="rvts10">형식에</span><span class="rvts32"> </span><span class="rvts10">따라</span><span class="rvts32"> </span><span class="rvts10">확인한다</span><span class="rvts32">. </span><span class="rvts10">추가적으로</span><span class="rvts32"> </span><span class="rvts10">주석</span><span class="rvts32"> </span><span class="rvts10">내에</span><span class="rvts32"> </span><span class="rvts10">필드</span><span class="rvts32"> </span><span class="rvts10">이름</span><span class="rvts32"> </span><span class="rvts10">및</span><span class="rvts32"> </span><span class="rvts10">필드</span><span class="rvts32"> </span><span class="rvts10">타입을</span><span class="rvts32"> </span><span class="rvts10">기재하는</span><span class="rvts32"> </span><span class="rvts10">형식의</span><span class="rvts32"> </span><span class="rvts10">경우</span><span class="rvts32"> </span><span class="rvts10">올바른</span><span class="rvts32"> </span><span class="rvts10">값을</span><span class="rvts32"> </span><span class="rvts10">기재하였는지</span><span class="rvts32"> </span><span class="rvts10">확인한다</span><span class="rvts33">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">GENERAL_COMMENT</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps40"><span class="rvts10">코드에</span><span class="rvts32"> </span><span class="rvts10">작성된</span><span class="rvts32"> </span><span class="rvts10">일반</span><span class="rvts32"> </span><span class="rvts10">주석을</span><span class="rvts32"> </span><span class="rvts10">사전에</span><span class="rvts32"> </span><span class="rvts10">정의된</span><span class="rvts32"> </span><span class="rvts10">일반</span><span class="rvts32"> </span><span class="rvts10">주석</span><span class="rvts32"> </span><span class="rvts10">형식에</span><span class="rvts32"> </span><span class="rvts10">따라</span><span class="rvts32"> </span><span class="rvts10">확인한다</span><span class="rvts33">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">METHOD_COMMENT</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps40"><span class="rvts10">코드에</span><span class="rvts32"> </span><span class="rvts10">선언된</span><span class="rvts32"> </span><span class="rvts10">메소드에</span><span class="rvts32"> </span><span class="rvts10">대한</span><span class="rvts32"> </span><span class="rvts10">주석을</span><span class="rvts32"> </span><span class="rvts10">사전에</span><span class="rvts32"> </span><span class="rvts10">정의된</span><span class="rvts32"> </span><span class="rvts10">메소드</span><span class="rvts32"> </span><span class="rvts10">주석</span><span class="rvts32"> </span><span class="rvts10">형식에</span><span class="rvts32"> </span><span class="rvts10">따라</span><span class="rvts32"> </span><span class="rvts10">확인한다</span><span class="rvts32">. </span><span class="rvts10">추가적으로</span><span class="rvts32"> </span><span class="rvts10">주석</span><span class="rvts32"> </span><span class="rvts10">내에</span><span class="rvts32"> </span><span class="rvts10">메소드</span><span class="rvts32"> </span><span class="rvts10">이름</span><span class="rvts32">, </span><span class="rvts10">메소드</span><span class="rvts32"> </span><span class="rvts10">반환형</span><span class="rvts32"> </span><span class="rvts10">및</span><span class="rvts32"> </span><span class="rvts10">메소드</span><span class="rvts32"> </span><span class="rvts10">파라미터들의</span><span class="rvts32"> </span><span class="rvts10">이름</span><span class="rvts32">, </span><span class="rvts10">타입</span><span class="rvts32">, </span><span class="rvts10">그리고</span><span class="rvts32"> </span><span class="rvts10">개수를</span><span class="rvts32"> </span><span class="rvts10">기재하는</span><span class="rvts32"> </span><span class="rvts10">형식의</span><span class="rvts32"> </span><span class="rvts10">경우</span><span class="rvts32"> </span><span class="rvts10">올바른</span><span class="rvts32"> </span><span class="rvts10">값을</span><span class="rvts32"> </span><span class="rvts10">기재하였는지</span><span class="rvts32"> </span><span class="rvts10">확인한다</span><span class="rvts33">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">PACKAGE_COMMENT</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps40"><span class="rvts10">코드에</span><span class="rvts32"> </span><span class="rvts10">패키지가</span><span class="rvts32"> </span><span class="rvts10">명시되어</span><span class="rvts32"> </span><span class="rvts10">있는</span><span class="rvts32"> </span><span class="rvts10">경우</span><span class="rvts32"> </span><span class="rvts10">패키지에</span><span class="rvts32"> </span><span class="rvts10">대한</span><span class="rvts32"> </span><span class="rvts10">주석을</span><span class="rvts32"> </span><span class="rvts10">사전에</span><span class="rvts32"> </span><span class="rvts10">정의된</span><span class="rvts32"> </span><span class="rvts10">패키지</span><span class="rvts32"> </span><span class="rvts10">주석</span><span class="rvts32"> </span><span class="rvts10">형식에</span><span class="rvts32"> </span><span class="rvts10">따라</span><span class="rvts32"> </span><span class="rvts10">확인한다</span><span class="rvts33">.</span><span class="rvts32"> </span><span class="rvts10">추가적으로</span><span class="rvts32"> </span><span class="rvts10">주석</span><span class="rvts32"> </span><span class="rvts10">내에</span><span class="rvts32"> </span><span class="rvts10">패키지</span><span class="rvts32"> </span><span class="rvts10">이름을</span><span class="rvts32"> </span><span class="rvts10">기재하는</span><span class="rvts32"> </span><span class="rvts10">형식의</span><span class="rvts32"> </span><span class="rvts10">경우</span><span class="rvts32"> </span><span class="rvts10">올바른</span><span class="rvts32"> </span><span class="rvts10">패키지</span><span class="rvts32"> </span><span class="rvts10">이름을</span><span class="rvts32"> </span><span class="rvts10">기재했는지</span><span class="rvts32"> </span><span class="rvts10">확인한다</span><span class="rvts33">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">NULL_RETURN</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts49">null </span><span class="rvts10">값이</span><span class="rvts49"> </span><span class="rvts10">반환되는</span><span class="rvts49"> </span><span class="rvts10">경우</span><span class="rvts49"> null </span><span class="rvts10">확인을</span><span class="rvts49"> </span><span class="rvts10">하지</span><span class="rvts49"> </span><span class="rvts10">않고</span><span class="rvts49"> </span><span class="rvts10">역</span><span class="rvts49"> </span><span class="rvts10">참조하는</span><span class="rvts49"> </span><span class="rvts10">경우에</span><span class="rvts49"> </span><span class="rvts10">경고를</span><span class="rvts49"> </span><span class="rvts10">낸다</span><span class="rvts49">. </span><span class="rvts10">보통</span><span class="rvts49"> </span><span class="rvts10">모든</span><span class="rvts49"> </span><span class="rvts10">프로그램에서</span><span class="rvts49"> null </span><span class="rvts10">을</span><span class="rvts49"> </span><span class="rvts10">반환할</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있는</span><span class="rvts49"> </span><span class="rvts10">함수들의</span><span class="rvts49"> </span><span class="rvts10">결과들은</span><span class="rvts49"> </span><span class="rvts10">항상</span><span class="rvts49"> null </span><span class="rvts10">확인을</span><span class="rvts49"> </span><span class="rvts10">하고</span><span class="rvts49"> </span><span class="rvts10">사용해야</span><span class="rvts49"> </span><span class="rvts10">한다</span><span class="rvts49">. </span><span class="rvts10">이렇게</span><span class="rvts49"> </span><span class="rvts10">하지</span><span class="rvts49"> </span><span class="rvts10">않을</span><span class="rvts49"> </span><span class="rvts10">경우</span><span class="rvts49">, </span><span class="rvts10">시스템의</span><span class="rvts49"> </span><span class="rvts10">기능을</span><span class="rvts49"> </span><span class="rvts10">멈추게</span><span class="rvts49"> </span><span class="rvts10">할</span><span class="rvts49"> </span><span class="rvts10">수도</span><span class="rvts49"> </span><span class="rvts10">있다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">UNCHECKED_NULL</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts49">null reference </span><span class="rvts10">와</span><span class="rvts49"> </span><span class="rvts10">비교한</span><span class="rvts49"> </span><span class="rvts10">적이</span><span class="rvts49"> </span><span class="rvts10">있는</span><span class="rvts49"> reference </span><span class="rvts10">를</span><span class="rvts49"> </span><span class="rvts10">이후</span><span class="rvts49"> </span><span class="rvts10">비교</span><span class="rvts49"> </span><span class="rvts10">없이</span><span class="rvts49"> </span><span class="rvts10">사용</span><span class="rvts49"> </span><span class="rvts10">할</span><span class="rvts49"> </span><span class="rvts10">경우</span><span class="rvts49"> null dereference </span><span class="rvts10">오류가</span><span class="rvts49"> </span><span class="rvts10">발생</span><span class="rvts49"> </span><span class="rvts10">할</span><span class="rvts49"> </span><span class="rvts10">수</span><span class="rvts49"> </span><span class="rvts10">있다</span><span class="rvts49">. </span><span class="rvts10">어떤</span><span class="rvts49"> reference </span><span class="rvts10">를</span><span class="rvts49"> null reference </span><span class="rvts10">와</span><span class="rvts49"> </span><span class="rvts10">비교</span><span class="rvts49"> </span><span class="rvts10">하였다는</span><span class="rvts49"> </span><span class="rvts10">것은</span><span class="rvts49"> </span><span class="rvts10">해당</span><span class="rvts49"> reference </span><span class="rvts10">가</span><span class="rvts49"> null </span><span class="rvts10">일</span><span class="rvts49"> </span><span class="rvts10">가능성이</span><span class="rvts49"> </span><span class="rvts10">있다는</span><span class="rvts49"> </span><span class="rvts10">것을</span><span class="rvts49"> </span><span class="rvts10">뜻한다</span><span class="rvts49">. </span><span class="rvts10">따라서</span><span class="rvts49"> </span><span class="rvts10">사용</span><span class="rvts49"> </span><span class="rvts10">하기</span><span class="rvts49"> </span><span class="rvts10">전에</span><span class="rvts49"> </span><span class="rvts10">항상</span><span class="rvts49"> </span><span class="rvts10">주의해야</span><span class="rvts49"> </span><span class="rvts10">한다</span><span class="rvts49">.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- JAVA 체커 세분화 </span></p>
+<p class="rvps2"><span class="rvts26">NULL_DEREFERENCE 가 FORWARD_NULL / NULL_RETURN 으로 분리 되었습니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- PMD 체커 연동</span></p>
+<p class="rvps2"><span class="rvts26">http://pmd.sourceforge.net/ 의 PMD 4.3 체커 245개를 연동하여 SPARROW를 통해 분석 할수 있습니다. </span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps14"><span class="rvts55">Java 분석 지원</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 커맨드라인 / GUI 분석 지원</span></p>
+<p class="rvps2"><span class="rvts26">분석과정을 개선하여 전체 분석속도가 크게 향상 되었습니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- General / Ant / Makefile / eclipse 빌드환경 지원</span></p>
+<p class="rvps2"><span class="rvts26">General : 빌드된 상태에서 소스경로와 클래스 경로를 지정</span></p>
+<p class="rvps2"><span class="rvts26">Ant : Apache Ant 빌드환경 지원</span></p>
+<p class="rvps2"><span class="rvts26">Makefile : &nbsp;Makefile 빌드환경 지원</span></p>
+<p class="rvps2"><span class="rvts26">Eclipse : Eclipse 프로젝트 빌드 환경 지원</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Hudson / Jenkins 분석 지원</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps14"><span class="rvts55">PMD 연동</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- PMD 체커 이용 가능</span></p>
+<p class="rvps2"><span class="rvts26">PMD 4.3 245개를 SPARROW 를 통해 자동으로 분석 합니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- PMD 검출 결과 관리</span></p>
+<p class="rvps2"><span class="rvts26">PMD 검출 결과를 SPARROW NEST를 통하여 오류 상태 변경, 담당자 지정, 변경관리등의 NEST기능을 전부 사용 할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- PMD 오류 한글 설명</span></p>
+<p class="rvps2"><span class="rvts26">PMD 분석 결과를 분석과정을 개선하여 전체 분석속도가 크게 향상 되었습니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Hudson / Jenkins 연동</span></p>
+<p class="rvps2"><span class="rvts26">Hudson / Jenkins 에서도 PMD결과를 볼 수 있습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem13.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps14"><span class="rvts55">결함 리스트 필터 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 체커 필터에 카테고리 추가 </span></p>
+<p class="rvps2"><span class="rvts26">카테고리와 리스크를 제공하여 트리 형식으로 체커 필터를 사용할 수 있습니다. (초록 사인 참조)</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 카테고리 / 리스크별로 정렬 가능</span></p>
+<p class="rvps2"><span class="rvts26">카테고리와 리스크를 선택하여 정렬이 가능합니다. (파랑 사인 참조)</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 비활성화된 체커 목록 숨김 기능 </span></p>
+<p class="rvps2"><span class="rvts26">분석시 비활성한 체커는 목록에서 숨길수 있습니다. (빨강 사인 참조)</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem7.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts55">결함 밀도 정보</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts26">전체, 개별 소스코드의 결함밀도(Defect Density) 정보를 추가하였습니다.</span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem10.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts55">한글 지원</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 클라이언트 분석 관리 시스템 한글화</span></p>
+<p class="rvps2"><span class="rvts41">- 이클립스 플러그인 한글화</span></p>
+<p class="rvps2"><span class="rvts41">- 에러 메시지 한글 지원</span></p>
+<p class="rvps7"><span class="rvts20"><br></span></p>
+<p class="rvps7"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts30">HUDSON / JENKINS Plugin</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 빌드 후 자동으로 SPARROW 분석 수행</span></p>
+<p class="rvps2"><span class="rvts26">CI Tool인 HUDSON(JENKINS)지원으로 빌드 후 자동으로 SPARROW 분석을 수행하고 결과를 HUDSON(JENKINS)에서 확인 가능합니다..</span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 스케줄러를 통하여 원하는 시간 / 주기로 SPARROW 분석 수행가능</span></p>
+<p class="rvps2"><span class="rvts26">스케줄러를 통해 원하는 시간 / 주기로 자동으로 SPARROW 분석을 수행 할 수 있습니다.</span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps2"><span class="rvts41">- HUDSON / JENKINS 와 NEST 연동</span></p>
+<p class="rvps2"><span class="rvts26">HUDSON(JENKINS) 에 분석 결과에 NEST 링크가 표시되며, NEST를 통해 보다 상세하게 오류를 확인 할수 있습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem9.png"></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps14"><span class="rvts30"><br></span></p>
+<p class="rvps14"><span class="rvts55">LDAP 지원</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts26">LDAP(Lightweight Directory Access Protocol)을 지원 함으로서, LDAP 데이터로 NEST를 이용 할 수 있습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem8.png"><span class="rvts26"> &nbsp;</span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps14"><span class="rvts55">사용 편의성 강화</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 오류 상태 수정시 자동 저장</span></p>
+<p class="rvps2"><span class="rvts26">분석 보고서에서 오류의 상태(Classfication / Action / Priority / Owner ) 변경시 저장버튼을 누르지 않아도 저장됩니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 프로젝트 검색 강화</span></p>
+<p class="rvps2"><span class="rvts26">프로젝트 페이지에서 기존 프로젝트 이름 검색만 지원하였으나, Manager , Comment 검색 항목이 추가되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- xml-update 분석 옵션 추가</span></p>
+<p class="rvps2"><span class="rvts26">분석 후 NEST에 결과를 업로드 하는 과정에서 실패하였을 경우 -E xml-update 옵션을 통해서 결과만 업로드 할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- zip 옵션 추가</span></p>
+<p class="rvps2"><span class="rvts26">prep , extract , analysis 옵션 사용시 [ -zip 파일명 / -Z 파일명 ]옵션을 사용하여 작업 수행후 입력한 파일명대로 압축을 합니다. 압축된 파일을 지정하여 </span></p>
+<p class="rvps2"><span class="rvts26">분석을 수행 할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 프로젝트별 로그 생성 </span></p>
+<p class="rvps13"><span class="rvts26">SPARROW_ROOT/logs/whistle 폴더에 프로젝트 별로 분석 로그가 저장됩니다.</span></p>
+<p class="rvps13"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 로그 백업 기능</span></p>
+<p class="rvps13"><span class="rvts26">SPARROW_ROOT/logs/whistle 폴더에 프로젝트 별로 분석 로그가 2개씩 저장 됩니다.</span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 정렬그룹에 카테고리 추가(Eclipse Plugin)</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem12.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 기존 결과 삭제 옵션 추가(Eclipse Plugin)</span></p>
+<p class="rvps2"><span class="rvts26">기존 결과 삭제 옵션을 설정하면 결과 누적을 하지 않고, 기존결과를 삭제하고 분석 합니다.</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts41">- JSP 분석 옵션(Eclipse Plugin)</span></p>
+<p class="rvps2"><span class="rvts26">JSP 분석 옵션을 설정하여 JSP를 분석 할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 자동 로그인 지원(Eclipse Plugin)</span></p>
+<p class="rvps2"><span class="rvts26">기존 결과 삭제 옵션을 설정하면 결과 누적을 하지 않고, 기존결과를 삭제하고 분석 합니다.</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts41">- NEST 연동 메뉴 개선(Eclipse Plugin)</span></p>
+<p class="rvps2"><span class="rvts26">NEST 연동 메뉴를 따로 표시하게 변경하였습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem11.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 자동분석 옵션 제거(Eclipse Plugin)</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps13"><span class="rvts30"><br></span></p>
+<p class="rvps14"><span class="rvts55">성능 강화</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 분석과정 속도 개선</span></p>
+<p class="rvps2"><span class="rvts26">분석과정을 개선하여 전체 분석속도가 크게 향상 되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 파싱에러 처리 개선</span></p>
+<p class="rvps2"><span class="rvts26">파싱 처리를 매크로와 루틴을 수정하여 에러율을 감소하였습니다.</span><br><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Eclipse plugin 결과 삭제 개선</span></p>
+<p class="rvps2"><span class="rvts26">Eclipse plugin 분석 결과 삭제 성능을 향상 되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts55">패키지 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 자바 포함</span></p>
+<p class="rvps2"><span class="rvts26">Jre6 를 포함하여 따로 자바를 설치할 필요가 없습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 이클립스 플러그인 32bit/64bit 모듈 통합</span></p>
+<p class="rvps2"><span class="rvts26">32bit / 64bit 모듈 통합으로 architecture 구별이 필요 없습니다.</span></p>
+<p class="rvps2"><span class="rvts30"><br></span></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+
