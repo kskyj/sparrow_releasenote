@@ -267,20 +267,20 @@ span.rvts51
  font-size: 9pt;
  font-family: '맑은 고딕';
 }
-a.rvts52, span.rvts52
+span.rvts52
 {
+ font-size: 11pt;
  font-family: '맑은 고딕';
- color: #0000ff;
- text-decoration: underline;
+ font-weight: bold;
+ color: #4f81bd;
 }
-a.rvts52:hover { color: #0000ff; }
-a.rvts53, span.rvts53
+span.rvts53
 {
- font-family: '맑은 고딕';
- color: #0000ff;
- text-decoration: underline;
+ font-size: 13pt;
+ font-family: '@맑은 고딕';
+ font-weight: bold;
+ color: #4f81bd;
 }
-a.rvts53:hover { color: #0000ff; }
 a.rvts54, span.rvts54
 {
  font-family: '맑은 고딕';
@@ -288,19 +288,106 @@ a.rvts54, span.rvts54
  text-decoration: underline;
 }
 a.rvts54:hover { color: #0000ff; }
-span.rvts55
+a.rvts55, span.rvts55
 {
- font-size: 11pt;
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts55:hover { color: #0000ff; }
+a.rvts56, span.rvts56
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts56:hover { color: #0000ff; }
+a.rvts57, span.rvts57
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts57:hover { color: #0000ff; }
+a.rvts58, span.rvts58
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts58:hover { color: #0000ff; }
+a.rvts59, span.rvts59
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts59:hover { color: #0000ff; }
+a.rvts60, span.rvts60
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts60:hover { color: #0000ff; }
+a.rvts61, span.rvts61
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts61:hover { color: #0000ff; }
+a.rvts62, span.rvts62
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts62:hover { color: #0000ff; }
+a.rvts63, span.rvts63
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts63:hover { color: #0000ff; }
+a.rvts64, span.rvts64
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts64:hover { color: #0000ff; }
+a.rvts65, span.rvts65
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts65:hover { color: #0000ff; }
+span.rvts66
+{
+ font-family: '맑은 고딕';
+ color: #000000;
+}
+span.rvts67
+{
  font-family: '맑은 고딕';
  font-weight: bold;
- color: #4f81bd;
+ color: #000000;
 }
-span.rvts56
+span.rvts68
 {
- font-size: 13pt;
- font-family: '@맑은 고딕';
+ font-size: 8pt;
+ font-family: '맑은 고딕';
  font-weight: bold;
- color: #4f81bd;
+ color: #000000;
+}
+span.rvts69
+{
+ font-size: 7pt;
+ font-family: '맑은 고딕';
+ color: #000000;
 }
 /* ========== Para Styles ========== */
 p,ul,ol /* Paragraph Style */
@@ -566,4 +653,11 @@ p,ul,ol /* Paragraph Style */
 {
  text-align: justify;
  margin: 24px 0px 0px 24px;
+}
+.rvps50
+{
+ text-align: right;
+}
+.rvps51
+{
 }

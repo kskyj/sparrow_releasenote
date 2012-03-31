@@ -1,0 +1,564 @@
+﻿<html>
+	
+<head>
+	<title>4.4</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript"><!--
+		var sTopicId = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+		if (top.frames.length == 0)
+			top.location.href = "SPARROW_Release_Note.html?" + sTopicId
+		else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+			top.FrameTOC.SelectTocItem(sTopicId);
+	</script>
+</head>
+
+<body>
+
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>4.4</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="SPARROW.html">SPARROW</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="SPARROW.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="SPARROW.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="433.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p class="rvps8"><span class="rvts23">Release Name: </span><span class="rvts22">SPARROW v4.4 (Eclipse Plugin 2.2)</span></p>
+<p class="rvps8"><span class="rvts23">Release Date: </span><span class="rvts22">2012/03/23</span></p>
+<p class="rvps3"><span class="rvts7">Features</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 체커 개선</span></p>
+<p class="rvps2"><span class="rvts26">- 신규 C/C++ 체커 30개 추가 변경</span></p>
+<p class="rvps2"><span class="rvts26">- 신규 Java 체커 1개 추가</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 리포트 개선</span></p>
+<p class="rvps2"><span class="rvts26">- Function folding &nbsp;지원</span></p>
+<p class="rvps2"><span class="rvts26">- 네비게이터와 리포트 표현 동기화</span></p>
+<p class="rvps2"><span class="rvts26">- 오류 설명박스 on/off</span></p>
+<p class="rvps2"><span class="rvts26">- New Window 지원</span></p>
+<p class="rvps2"><span class="rvts26">- Java 리포트 오류 표현 아이콘 개선</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 필터 개선</span></p>
+<p class="rvps2"><span class="rvts26">- 체커 문자열 검색 추가</span></p>
+<p class="rvps2"><span class="rvts26">- 알파벳 정렬 추가</span></p>
+<p class="rvps2"><span class="rvts26">- 필터 순서 변경</span></p>
+<p class="rvps2"><span class="rvts26">- 필터 상태 표시</span></p>
+<p class="rvps2"><span class="rvts26">- Hide 기능 변경</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 분석 방법 개선</span></p>
+<p class="rvps2"><span class="rvts26">- compiler type, compiler version 필수 옵션 선택옵션으로 변경</span></p>
+<p class="rvps2"><span class="rvts26">- PRESET 옵션 추가</span></p>
+<p class="rvps2"><span class="rvts26">- 파싱리스트 추가</span></p>
+<p class="rvps2"><span class="rvts26">- 분석 제외 리스트 설정</span></p>
+<p class="rvps2"><span class="rvts26">- Scaffold --&gt; Extended Library로 변경 및 네스트에서 관리</span></p>
+<p class="rvps2"><span class="rvts26">- 분석 깊이 옵션 추가</span></p>
+<p class="rvps2"><span class="rvts26">- 중복 오류 제거</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 프로젝트/스캔 일괄 편집,엑셀 기능</span></p>
+<p class="rvps2"><span class="rvts26">- 일괄 엑셀 내보내기</span></p>
+<p class="rvps2"><span class="rvts26">- 일괄 수정</span></p>
+<p class="rvps2"><span class="rvts26">- 일괄 삭제</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 프로젝트 인포메이션 개선</span></p>
+<p class="rvps2"><span class="rvts26">- 프로젝트 정보 표시</span></p>
+<p class="rvps2"><span class="rvts26">- 제거된 오류 표시</span></p>
+<p class="rvps2"><span class="rvts26">- 데이터 항목 링크 표시</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 프로젝트 복제 기능</span></p>
+<p class="rvps2"><span class="rvts26">- 프로젝트 생성시 복제</span></p>
+<p class="rvps2"><span class="rvts26">- 프로젝트 복사</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 자동 업데이트 지원</span></p>
+<p class="rvps2"><span class="rvts26">- 클라이언트 자동 업데이트</span></p>
+<p class="rvps2"><span class="rvts26">- 이클립스 플러그인 원격 설치 및 업데이트</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 한국어 추가 지원 </span></p>
+<p class="rvps2"><span class="rvts26">- NEST 한글지원</span></p>
+<p class="rvps2"><span class="rvts26">- 클라이언트 도움말 한글 지원</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> NEST의 모든 분석 결과 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26">- Project 페이지 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26">- Scan 페이지 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26">- Project Information 페이지 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26">- Analyzed File Information 페이지 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 패키지 개선</span></p>
+<p class="rvps2"><span class="rvts26">- Properties 자동 설정</span></p>
+<p class="rvps2"><span class="rvts26">- 윈도우 인스톨러</span></p>
+<p class="rvps2"><span class="rvts26">- AIX ,HPUX ,Solaris Ctags 자동 설치</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 체커그룹 개선</span></p>
+<p class="rvps2"><span class="rvts26">- Complex 표시</span></p>
+<p class="rvps2"><span class="rvts26">- 디폴트값 변경</span></p>
+<p class="rvps2"><span class="rvts26">- 체커 검색 기능</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 서버매니저 개선</span></p>
+<p class="rvps2"><span class="rvts26">- 포트설정</span></p>
+<p class="rvps2"><span class="rvts26">- 자동시작 옵션</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 신규 개발 환경 지원</span></p>
+<p class="rvps2"><span class="rvts26">- C/C++ 신규 개발 환경 지원(Code warrior, PM+)</span></p>
+<p class="rvps2"><span class="rvts26">- JAVA 신규 개발 환경 지원(maven)</span></p>
+<p class="rvps2"><span class="rvts26">- 후킹 유틸 지원</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 사용편의성 강화</span></p>
+<p class="rvps2"><span class="rvts26">- Defect List Graph에 링크 추가</span></p>
+<p class="rvps2"><span class="rvts26">- Public 프로젝트 추가</span></p>
+<p class="rvps2"><span class="rvts26">- 프로젝트 페이지 컬럼 순서 변경</span></p>
+<p class="rvps2"><span class="rvts26">- 스캔 페이지 컬럼 순서 변경</span></p>
+<p class="rvps2"><span class="rvts26">- 스캔 페이지 분석 결과 순서번호로 표시</span></p>
+<p class="rvps2"><span class="rvts26">- 체커그룹 정보 표시</span></p>
+<p class="rvps2"><span class="rvts26">- 메뉴개선</span></p>
+<p class="rvps2"><span class="rvts26">- 분석 Summary에 체커 알파벳순 정렬</span></p>
+<p class="rvps2"><span class="rvts26">- 분석 Summary에 업로드 실패 결과 표시</span></p>
+<p class="rvps2"><span class="rvts26">- 클라이언트 매니저에 html 도움말 추가</span></p>
+<p class="rvps2"><span class="rvts26">- Java 메모장 추가</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 기타 개선 </span></p>
+<p class="rvps2"><span class="rvts26">- 윈도우 64비트 후킹 지원 문제 해결</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41"># Eclipse Plugin</span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 결함 상태 세분화</span></p>
+<p class="rvps2"><span class="rvts26">- 결함상태 변경 세분화</span></p>
+<p class="rvps2"><span class="rvts26">- 결함상태 일괄 변경 기능</span></p>
+<p class="rvps2"><span class="rvts26">- 상태변경 자동 저장 반영</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 분석 정보 표시</span></p>
+<p class="rvps2"><span class="rvts26">- 분석정보 표시 기능</span></p>
+<p class="rvps2"><span class="rvts26">- 체커 그룹 표시</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 원격 설치 및 업데이트 지원</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 사용편리성 강화</span></p>
+<p class="rvps2"><span class="rvts26">- 체커그룹 NEST 100% 동기화</span></p>
+<p class="rvps2"><span class="rvts26">- 체커설명 추가</span></p>
+<p class="rvps2"><span class="rvts26">- 라이선스 확인 개선</span></p>
+<p class="rvps2"><span class="rvts26">- NEST 연동 메뉴 세분화</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts25">●</span><span class="rvts26"> 성능 개선</span></p>
+<p class="rvps2"><span class="rvts26">- 분석 속도 개선</span></p>
+<p class="rvps2"><span class="rvts26">- 불필요한 파일 삭제</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts52">체커 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 신규 C/C++ 체커 30개 추가 변경</span></p>
+<p class="rvps2"><span class="rvts26">C/C++ 체커에 관해서 총 30개의 체커가 추가 변경되었습니다. 이중 5개(OVERRUN.MEMSET/UNREACABLE_CODE/CAST_ALTER_VALUE/OVERRUN_PF/IGNORED_RETURN_VALUE)는 기존 체커의 성능을 개선한 것입니다. 아래는 현재 지원하고 있는 C/C++체커 목록 중 신규 추가 변경된 목록입니다.</span></p>
+<p class="rvps2"><span class="rvts26">*신규체커 목록</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem32.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26">*성능 강화 체커 목록</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem14.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 신규 Java 체커 1개 추가</span></p>
+<p class="rvps2"><span class="rvts26">Java 체커에 관해서 1개의 체커가 추가되었습니다.</span></p>
+<div class="rvps2"><table width="100%" border="1" cellpadding="1" cellspacing="2" style="border-color: #000000; border-style: solid;">
+<tr valign="top">
+<td width="129" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps37"><span class="rvts39">Checker</span></p>
+</td>
+<td width="554" valign="middle" style="border-color: #000000; border-style: solid;"><p class="rvps37"><span class="rvts39">Description</span></p>
+</td>
+</tr>
+<tr valign="middle">
+<td width="129" style="border-color: #000000; border-style: solid;"><p class="rvps34"><span class="rvts26">NULL_RETURN_USR</span></p>
+</td>
+<td width="554" style="border-color: #000000; border-style: solid;"><p class="rvps42"><span class="rvts32">- </span><span class="rvts10">사용자가 작성한 library들 중에 null을 돌려줄 가능성이 있는 method들로부터 값을 특정 변수에 할당한 뒤, 이변수의 null을 확인하지 않고 이변수를 바로 역참조 하는 경우</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">리포트 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- Function folding &nbsp;지원</span></p>
+<p class="rvps2"><span class="rvts26">함수, 조건문의 열고 닫을 수 있는 기능을 새롭게 지원합니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem16.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 네비게이터와 리포트 표현 동기화</span></p>
+<p class="rvps2"><span class="rvts26">네비게이터의 Branch, Call 체크에 따라 리포트에도 해당 부분이 동일하게 나타납니다. 기본값은 Disable입니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 오류 설명박스 on/off</span></p>
+<p class="rvps2"><span class="rvts26">리포트의 Defect sign을 통해 남색 오류 설명 박스를 제어 할 수 있습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem23.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- New Window 지원</span></p>
+<p class="rvps2"><span class="rvts26"> 리포트 소스코드내에서 클릭하는</span><span class="rvts41"> </span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem22.png"><span class="rvts26">, 함수, 변수등에 관하여 새로운 창으로 보일수 실행되는 기능을 추가하였습니다.</span></p>
+<p class="rvps2"><span class="rvts26">New window 설정은 Defect list 위쪽에 위치해 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Java 리포트 오류 표현 아이콘 개선</span></p>
+<p class="rvps2"><span class="rvts26">* Branch아이콘이 기존 </span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem21.png"><span class="rvts26">에서 </span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem20.png"><span class="rvts26">로 변경되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26">* Call아이콘이 기존</span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem19.png"><span class="rvts26">에서 </span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem18.png"><span class="rvts26">로 변경되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26">* Null을 참조하는곳과 할당하는곳 둘다 </span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem17.png"><span class="rvts26">으로 변경되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">필터 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 체커 문자열 검색 추가</span></p>
+<p class="rvps2"><span class="rvts26">문자열을 입력하면 포함된 체커가 검색됩니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem26.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 알파벳 정렬 추가</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem25.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 필터 순서 변경</span></p>
+<p class="rvps2"><span class="rvts26">사용성이 많은 체커와 경로 검색을 위로 이동하였습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 필터 상태 표시</span></p>
+<p class="rvps2"><span class="rvts26">필터가 하나라도 적용되면 상태가 Filter Detail에 ON 으로 변경 됩니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem24.png"><span class="rvts41"> </span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Hide 기능 변경</span></p>
+<p class="rvps2"><span class="rvts26">필터에 의해 defect list에 나타나지 않는 것은 무조건 Total 옆에 표시되게 변경하였습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">분석 방법 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- compiler type, compiler version 필수 옵션 선택옵션으로 변경</span></p>
+<p class="rvps2"><span class="rvts26">CT, CV를 입력하지 않아도 자동으로 컴파일러명(CN)을 보고 인식합니다.</span></p>
+<p class="rvps2"><span class="rvts26">CV의 경우 입력하지 않으면 gnu는 4.1.2 msvc는 ms2008이 들어갑니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- PRESET 옵션 추가</span></p>
+<p class="rvps2"><span class="rvts26">컴파일러명, 컴파일러 타입, 컴파일러 버전 즉 CN,CT,CV를 미리 지정하여 하나의 프리셋으로 분석 가능합니다.</span></p>
+<p class="rvps2"><span class="rvts26">현재는 비쥬얼스튜디오 모든 버전, codewarrior등의 IDE가 추가되어 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26">사용법은 --PRESET [preset명] 또는 클라이언트매니저에서는 마법사에서 PRESET 을 선택 할 수 있습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem31.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 파싱리스트 추가</span></p>
+<p class="rvps2"><span class="rvts26">파싱리시트를 통해 이미있는 gnu/aix/hpux/sun/arm/msvc 외에도 사용자가 지정하여 설정된 옵션으로 파싱을 합니다.</span></p>
+<p class="rvps2"><span class="rvts26">파싱 리스트에서 성공한 옵션대로 나머지 파일들을 파싱 합니다. 파싱 실패여부를 거의 0화 하였습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 분석 제외 리스트 설정</span></p>
+<p class="rvps2"><span class="rvts26">분석시 원하지 않는 파일 이나 폴더 리스트를 지정할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26">excluded_list.txt 에 원하지 않는 리스트를 입력하고, -OD를 통해 분석하면 됩니다. 이떄 입력한 리스트는 분석은 하나 업로드만 하지 않습니다.</span></p>
+<p class="rvps2"><span class="rvts26">클라이언트 매니저에선 GUI를 지원합니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Scaffold --&gt; Extended Library로 변경 및 네스트에서 관리</span></p>
+<p class="rvps2"><span class="rvts26">Extended Library를 네스트를 통해 만들며 프로젝트 생성시 추가합니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem30.png"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem29.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 분석 깊이 옵션 추가</span></p>
+<p class="rvps2"><span class="rvts26">분석 깊이 설정하는 옵션을 쉽게 바꿀수 있도록 변경 하였습니다.</span></p>
+<p class="rvps2"><span class="rvts26">클라이언트 매니저는 추가설정-&gt;기타에 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26">이클립스는 설정 -&gt; 분석 추가옵션에 있습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem28.png"><span class="rvts26"> </span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 중복 오류 제거</span></p>
+<p class="rvps2"><span class="rvts26">체커명, 함수명, 오류라인이 같은 것은 여러개가 나오면 하나만 리포트 되도록 변경되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 기타 개선</span></p>
+<p class="rvps2"><span class="rvts26">* noedg 옵션 추가</span></p>
+<p class="rvps2"><span class="rvts26">기존에 edg 를 거친 전처리파일(gen_files) 가 있을 경우 -E analysis 모드 사용시 --noedg를 추가하면 edg를 건너뛰고 분석만 실행합니다.</span></p>
+<p class="rvps2"><span class="rvts26">하지만 FORMAT_STRING과 edg의 UNREACHABLE 은 검출 되지 않습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26">* 64비트 옵션 추가</span></p>
+<p class="rvps2"><span class="rvts26">64비트 에서 컴파일된 소스 long, int사이즈를 해결한 --64BIT 옵션을 추가로 지원합니다. AIX,HPUX,SUN은 기본값이 64비트 이며, 처음 설치시 64비트로 설정하면</span></p>
+<p class="rvps2"><span class="rvts26">자동으로 64비트 옵션이 실행됩니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26">* msvc CV이름 변경</span></p>
+<p class="rvps2"><span class="rvts26">기존 8.0, 9.0 등에서 ms2008, ms2010 으로 변경 되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26">* plover, finch option 파일 추가</span></p>
+<p class="rvps2"><span class="rvts26">Ploveropt.txt / finchopt.txt 파일을 -OD 에 추가하여 이용 할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts26">* 중복체커에 대한 우선순위 정하는 기능 추가</span></p>
+<p class="rvps2"><span class="rvts26">중복체커에 관하여 엔진 우선순위를 지정하는 기능이 추가되었습니다. whistle/engine/conf/engine_priority.txt 를 통해 설정 합니다.</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts52">프로젝트/스캔 일괄 편집,엑셀 기능</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 일괄 엑셀 내보내기</span></p>
+<p class="rvps2"><span class="rvts26">프로젝트 페이지에서 원하는 프로젝트를 선택/전체선택 후 Export to Excel 버튼을 클릭하면 최근에 분석한 결과가 내보내기 됩니다.</span></p>
+<p class="rvps2"><span class="rvts26">스캔 페이지에서 원하는 스캔 선택/전체선택 후 Export to Excel 버튼을 클릭하면 선택한 분석 결과가 내보내기 됩니다.</span></p>
+<p class="rvps2"><span class="rvts26">데이터가 많은 경우 파일이 분할되어 여러개의 파일이 생성됩니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem34.png"></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 일괄 수정</span></p>
+<p class="rvps2"><span class="rvts26">프로젝트 페이지에서 원하는 프로젝트를 선택/전체선택 후 &nbsp;Modify를 클릭하면 아래의 화면에서 원하는것을 체크하고 변경하면 됩니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem33.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 일괄 삭제</span></p>
+<p class="rvps2"><span class="rvts26">프로젝트 페이지에서 원하는 프로젝트를 선택/전체선택 후 Delelte 버튼을 클릭하면 선택한 프로젝트가 삭제됩니다.</span></p>
+<p class="rvps2"><span class="rvts26">스캔 페이지에서 원하는 스캔 선택/전체선택 후 Delelte 버튼을 클릭하면 선택한 분석 결과가 삭제됩니다.</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts52">프로젝트 인포메이션 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 프로젝트 정보 표시</span></p>
+<p class="rvps2"><span class="rvts26">프로젝트 페이지에서 프로젝트 이름을 클릭하면 인포메이션 페이지로 이동합니다.</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 제거된 오류 표시</span></p>
+<p class="rvps2"><span class="rvts26">기존과 비교하여 제거된 오류개수가 표시됩니다.(Eliminated Defects)</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 데이터 항목 링크 표시</span></p>
+<p class="rvps2"><span class="rvts26">Scans, Existing, Recurred, Source Defects, All Files 에 링크가 표시되어 클릭하면 필터된대로 이동합니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem35.png"></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts52">프로젝트 복제 기능</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 프로젝트 생성시 복제</span></p>
+<p class="rvps2"><span class="rvts26">프로젝트 생성시 정보를 입력하고 Create and continue 버튼을 통하여 입력한 정보로 동일한 프로젝트를 만들 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 프로젝트 복사</span></p>
+<p class="rvps2"><span class="rvts26">이미있는 프로젝트 수정 메뉴에서 Copy를 통하여 설정된 메뉴로 동일한 프로젝트를 만들 수 있습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem37.png"><span class="rvts20"> &nbsp;</span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem36.png"></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts52">자동 업데이트 지원</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 클라이언트 자동 업데이트</span></p>
+<p class="rvps2"><span class="rvts26">서버(NEST)쪽이 업데이트 되면 분석시 -S 옵션을 이용하면 클라이언트가 자동으로 업데이트가 됩니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts52">한국어 추가 지원 </span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- NEST 한글지원</span></p>
+<p class="rvps2"><span class="rvts26">NEST 사용자 계정에서 선호하는 언어를 선택 합니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem38.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 클라이언트 도움말 한글 지원</span></p>
+<p class="rvps2"><span class="rvts26">sparrow-whistle.sh --help 사용시 도움말이 한글도 지원됩니다. setup / configure 시 설정을 ko 로 설정하면 자동으로 지원됩니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">NEST의 모든 분석 결과 링크 지원</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts26">NEST에 표시되는 모든 결과에 대해 Defect List로 이동하며 쉬프트로 새창열기도 지원합니다.</span></p>
+<p class="rvps2"><span class="rvts41">- Project 페이지 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26">NewDefects, TotalDefects, SourceFiles 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Scan 페이지 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26">NewDefects, TotalDefects, SourceFiles 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Project Information 페이지 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26">NewDefects, ExistingDefects, RecurredDefects, TotalDefects, SourceFiles, Allfiles 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Analyzed File Information 페이지 링크 지원</span></p>
+<p class="rvps2"><span class="rvts26">해당파일의 Defects링크 지원</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts52">패키지 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- Properties 자동 설정</span></p>
+<p class="rvps2"><span class="rvts26">Setup / Configuration 을 하면 자동으로 프로퍼티를 생성합니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 윈도우 인스톨러</span></p>
+<p class="rvps2"><span class="rvts26">윈도우의 경우 전용 인스톨러를 이용하여 설치/제거가 가능합니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- AIX ,HPUX ,Solaris Ctags 자동 설치</span></p>
+<p class="rvps2"><span class="rvts26">Setup을 실행하면 자동으로 Ctags 소스를 컴파일하고 설치합니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts52">체커그룹 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- Complex 표시</span></p>
+<p class="rvps2"><span class="rvts26">Complex가 포함된 체커를 위해 컬럼을 추가하였습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 디폴트값 변경</span></p>
+<p class="rvps2"><span class="rvts26">C/C++ : 36개 Enabled </span></p>
+<p class="rvps2"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;13개 Disabled - 실험적 체커와 중요하지 않은 체커</span></p>
+<p class="rvps2"><span class="rvts26">Java &nbsp; &nbsp;: 55개 Enabled - Level 1,2 </span></p>
+<p class="rvps2"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;239개 - PMD와 SPARROW 중복된것, Level 3,4,5</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 체커 검색 기능</span></p>
+<p class="rvps2"><span class="rvts26">체커가 포함된 알파벳을 입력하여 검색이 가능합니다.</span></p>
+<p class="rvps2"><span class="rvts26">숨겨진 옵션으로 #엔진명 을 적으면 해당 엔진으로 검색이 가능합니다.</span></p>
+<p class="rvps2"><span class="rvts26">엔진 목록은 다음과 같습니다. #Opus1 / #Opus2 / #Plover / #EDG1 / #EDG2 / #Finch / #Comment / #PMD</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts20"><br></span></p>
+<p class="rvps14"><span class="rvts52">서버매니저 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 포트설정</span></p>
+<p class="rvps2"><span class="rvts26">사용하는 포트를 수정이 가능하도록 포트설정을 추가하였습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem41.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 자동시작 옵션</span></p>
+<p class="rvps2"><span class="rvts26">프로그램 시작시 자동으로 재시작하는 옵션이 추가되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">신규 개발 환경 지원</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- C/C++ 신규 개발 환경 지원</span></p>
+<p class="rvps2"><span class="rvts26">코드워리워(Code warrior): Preset에서 codewarrior 를 지정하여 분석 합니다.</span></p>
+<p class="rvps2"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ADS 1.2 버전인 경우는 아래와 같이 매니저에서 도구 -&gt; 환경설정 -&gt; Code Warrior에 IDE 경로를 추가해야 합니다.</span></p>
+<p class="rvps7"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem40.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26">PM+ IDE : Preset에서 pmplus를 지정하여 분석 합니다.</span></p>
+<p class="rvps2"><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 사용시 디바이스파일을 지정해주어야 합니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- JAVA 신규 개발 환경 지원</span></p>
+<p class="rvps2"><span class="rvts26">Maven: sparrow-java.sh -BT maven 또는 매니저에서 빌드타입을 maven을 선택합니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 후킹 유틸 지원</span></p>
+<p class="rvps2"><span class="rvts26">후킹이 지원되지 않는 빌드시스템을 위해 유틸을 제공합니다. 컴파일되는 과정이 작성된 파일에서</span></p>
+<p class="rvps2"><span class="rvts26">입력한 컴파일러가 들어간 구문에 전처리 옵션을 추가하는 스크립트를 생성합니다.</span></p>
+<p class="rvps2"><span class="rvts26">사용하기 위해서는 빌드시 컴파일되는 과정이 화면에 출력되어야 합니다.</span></p>
+<p class="rvps2"><span class="rvts26">예제) cc -c a.c</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26">사용법 (gcc,g++ 로 컴파일하고 make 로 빌드할경우)</span></p>
+<p class="rvps2"><span class="rvts26">1. make &gt; test.txt</span></p>
+<p class="rvps2"><span class="rvts26">2. util/sparrow-hook.sh test.txt gcc,g++ </span></p>
+<p class="rvps2"><span class="rvts26">3. 생성된 sparrow-build.sh 실행하면 전처리 파일이 생성됨</span></p>
+<p class="rvps2"><span class="rvts26">4. prebuilder 를 이용하여 extract </span></p>
+<p class="rvps2"><span class="rvts26">5. anlaysis로 분석 실행</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">사용편의성 강화</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- Defect List Graph에 링크 추가</span></p>
+<p class="rvps2"><span class="rvts26">Defect List Graph 메뉴에 해당 체커를 클릭하면 필터된 Defect List로 이동합니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem43.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Public 프로젝트 추가</span></p>
+<p class="rvps2"><span class="rvts26">사용자에 상관없이 분석/리뷰가 가능한 Public프로젝트를 프로젝트 생성/수정시 설정할 수 있습니다. </span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 프로젝트 페이지 컬럼 순서 변경</span></p>
+<p class="rvps2"><span class="rvts26">Language</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Project</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Scans</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">New Defects</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Total Defects</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Last Scanned</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Progress</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Analysis Time</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Source Files</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 스캔 페이지 컬럼 순서 변경</span></p>
+<p class="rvps2"><span class="rvts26">No</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">New Defects</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Total Defects</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Analysis Type</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Scanned Date</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Progress</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Analysis Time</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Source Files</span><span class="rvts26"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts26">Build LOC</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 스캔 페이지 분석 결과 순서번호로 표시</span></p>
+<p class="rvps2"><span class="rvts26">기존 스캔아이디에서 분석 순서대로 표시하게 변경되었습니다. </span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 체커그룹 정보 표시</span></p>
+<p class="rvps2"><span class="rvts26">NEST, 이클립스, 분석 Summary에서 선택한체커/전체체커 를 표시합니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 메뉴개선</span></p>
+<p class="rvps2"><span class="rvts26">Home 이 Projects로 변경 되었으며, ExtendedLibrary가 추가되었습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem42.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 분석 Summary에 체커 알파벳순 정렬</span></p>
+<p class="rvps2"><span class="rvts26">분석후 결과가 나오는 Summary에 체커 알파벳순으로 정렬하였습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 분석 Summary에 업로드 실패 결과 표시</span></p>
+<p class="rvps2"><span class="rvts26">분석후 결과가 나오는 Summary에 Upload failed defects를 표시합니다.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 클라이언트 매니저에 html 도움말 추가</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41">- Java 메모장 추가</span></p>
+<p class="rvps2"><span class="rvts26">DRM환경에서 옵션파일 저장시 에러가 생길경우를 대비하여 메모장 유틸을 추가하였습니다.</span></p>
+<p class="rvps2"><span class="rvts26">사용법은 util/editor/editor.bat 을 실행하십시오.</span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">기타 개선 </span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 윈도우 64비트 후킹 지원 문제 해결</span></p>
+<p class="rvps2"><span class="rvts26">윈도우 64비트에서 후킹모듈 레지스트리 지정경로가 잘못되었던것을 수정하였습니다. 윈도우 인스톨러를 통해 이용하거나, </span></p>
+<p class="rvps2"><span class="rvts26">설치 후 직접 레지스트리를 등록해야합니다.</span></p>
+<p class="rvps10"><span class="rvts24"><br></span></p>
+<p class="rvps10"><span class="rvts24"><br></span></p>
+<p class="rvps10"><span class="rvts24"><br></span></p>
+<p class="rvps10"><span class="rvts24"><br></span></p>
+<p class="rvps10"><span class="rvts24"># Eclipse Plugin</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">결함 상태 세분화</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem48.png"></p>
+<p class="rvps2"><span class="rvts41">- 결함상태 변경 세분화</span></p>
+<p class="rvps2"><span class="rvts26">기존 결함 선별만 표시 할 수 있었으나, NEST와 마찬가지로 우선순위, 처리현황 메모를 변경 할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 결함상태 일괄 변경 기능</span></p>
+<p class="rvps2"><span class="rvts26">Analysis Result 에서 원하는 범위를 선택후 마우스 우클릭 또는 결함상태 변경 아이콘을 통하여 상태를 일괄 변경 할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 상태변경 자동 저장 반영</span></p>
+<p class="rvps2"><span class="rvts26">메모를 제외한 결함 선별, 우선순위, 처리현황은 변경시 자동으로 저장 반영 됩니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">분석 정보 표시</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 분석정보 표시 기능</span></p>
+<p class="rvps2"><span class="rvts26">가장 최근에 분석한 정보를 보여줍니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem44.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 체커 그룹 표시</span></p>
+<p class="rvps2"><span class="rvts26">어떤 체커 그룹을 통해 분석하였는지 표시해 줍니다.</span></p>
+<p class="rvps14"><span class="rvts52"><br></span></p>
+<p class="rvps14"><span class="rvts52"><br></span></p>
+<p class="rvps14"><span class="rvts52">원격 설치 및 업데이트</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 원격 설치 및 업데이트</span></p>
+<p class="rvps2"><span class="rvts26">서버(NEST)쪽에 플러그인 파일이 포함되어 있어 이클립스의 Install, Update메뉴을 이용 할 수 있습니다.</span></p>
+<p class="rvps2"><span class="rvts26">사용법은 오픈소스툴과 마찬가지로 URL를 입력후 사용하면 됩니다.</span></p>
+<p class="rvps2"><span class="rvts26"> </span><img border="0" alt hspace="1" vspace="1" src="lib/NewItem39.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps14"><span class="rvts52">사용편리성 강화</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 체커그룹 NEST 100% 동기화</span></p>
+<p class="rvps2"><span class="rvts26">기존 NEST 연동시 주석/PMD 만 사용했던것에서 모든 자바 체커 그룹을 NEST에서 설정한 대로 분석합니다.</span></p>
+<p class="rvps2"><span class="rvts26">NEST 연동을 하면 체커그룹을 사용 할 수 있으며, 로그인을 하지 않을 경우 이클립스 체커 설정으로 분석 합니다.</span></p>
+<p class="rvps2"><span class="rvts26">단, NEST 업로드 분서시에는 해당 프로젝트의 체커그룹으로 분석 됩니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 체커설명 추가</span></p>
+<p class="rvps2"><span class="rvts26">체커를 선택하면 체커 설명과 CWE,CERT,OWASP 링크와 예제를 제공합니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem46.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 라이선스 확인 개선</span></p>
+<p class="rvps2"><span class="rvts26">라이선스를 확인 을 좀더 알아보기 쉽게 개선하였으며, 유효하지 않은 라이선스일 경우 발생한 팝업 버그를 수정하였습니다.</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem45.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- NEST 연동 메뉴 세분화</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem47.png"></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 분석 깊이 옵션 추가</span></p>
+<p class="rvps2"><img border="0" alt hspace="1" vspace="1" src="lib/NewItem27.png"></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps2"><span class="rvts41"><br></span></p>
+<p class="rvps14"><span class="rvts52">성능 개선</span></p>
+<hr style="height: 1px; color : #000000;  background-color : #000000; border-width : 0px;">
+<p class="rvps2"><span class="rvts41">- 분석 속도 개선</span></p>
+<p class="rvps2"><span class="rvts26">NEST에 업로드(NEST로 분석, Analysis result NEST업로드)를 하지 않을 경우 소스코드를 복사하지 않아 분석속도가 개선되었습니다.</span></p>
+<p class="rvps2"><span class="rvts26"><br></span></p>
+<p class="rvps2"><span class="rvts41">- 불필요한 파일 삭제</span></p>
+<p class="rvps2"><span class="rvts26">분석 결과를 삭제할 경우 metadata 안의 필요없는 파일들도 삭제합니다.</span></p>
+<p class="rvps4"><span class="rvts8">Created with the Personal Edition of HelpNDoc: </span><a class="rvts9" href="http://www.helpndoc.com">Free HTML Help documentation generator</a></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+
