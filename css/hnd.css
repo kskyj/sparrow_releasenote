@@ -288,27 +288,20 @@ a.rvts54, span.rvts54
  text-decoration: underline;
 }
 a.rvts54:hover { color: #0000ff; }
-a.rvts55, span.rvts55
+span.rvts55
 {
  font-family: '맑은 고딕';
- color: #0000ff;
- text-decoration: underline;
+ color: #ff0000;
 }
-a.rvts55:hover { color: #0000ff; }
-a.rvts56, span.rvts56
+span.rvts56
+{
+ font-family: '@맑은 고딕';
+}
+span.rvts57
 {
  font-family: '맑은 고딕';
- color: #0000ff;
- text-decoration: underline;
+ background-color: #bfbfbf;
 }
-a.rvts56:hover { color: #0000ff; }
-a.rvts57, span.rvts57
-{
- font-family: '맑은 고딕';
- color: #0000ff;
- text-decoration: underline;
-}
-a.rvts57:hover { color: #0000ff; }
 a.rvts58, span.rvts58
 {
  font-family: '맑은 고딕';
@@ -365,25 +358,60 @@ a.rvts65, span.rvts65
  text-decoration: underline;
 }
 a.rvts65:hover { color: #0000ff; }
-span.rvts66
+a.rvts66, span.rvts66
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts66:hover { color: #0000ff; }
+a.rvts67, span.rvts67
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts67:hover { color: #0000ff; }
+a.rvts68, span.rvts68
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts68:hover { color: #0000ff; }
+a.rvts69, span.rvts69
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts69:hover { color: #0000ff; }
+a.rvts70, span.rvts70
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts70:hover { color: #0000ff; }
+span.rvts71
 {
  font-family: '맑은 고딕';
  color: #000000;
 }
-span.rvts67
+span.rvts72
 {
  font-family: '맑은 고딕';
  font-weight: bold;
  color: #000000;
 }
-span.rvts68
+span.rvts73
 {
  font-size: 8pt;
  font-family: '맑은 고딕';
  font-weight: bold;
  color: #000000;
 }
-span.rvts69
+span.rvts74
 {
  font-size: 7pt;
  font-family: '맑은 고딕';
@@ -656,8 +684,30 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps50
 {
- text-align: right;
+ text-align: justify;
 }
 .rvps51
+{
+}
+.rvps52
+{
+ text-align: center;
+ background: #e5e5e5;
+}
+.rvps53
+{
+ text-align: center;
+ line-height: 1.50;
+}
+.rvps54
+{
+ text-align: center;
+ line-height: 2.00;
+}
+.rvps55
+{
+ text-align: right;
+}
+.rvps56
 {
 }
