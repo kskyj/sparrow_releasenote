@@ -302,13 +302,11 @@ span.rvts57
  font-family: '맑은 고딕';
  background-color: #bfbfbf;
 }
-a.rvts58, span.rvts58
+span.rvts58
 {
- font-family: '맑은 고딕';
- color: #0000ff;
- text-decoration: underline;
+ font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
 }
-a.rvts58:hover { color: #0000ff; }
 a.rvts59, span.rvts59
 {
  font-family: '맑은 고딕';
@@ -393,25 +391,39 @@ a.rvts70, span.rvts70
  text-decoration: underline;
 }
 a.rvts70:hover { color: #0000ff; }
-span.rvts71
+a.rvts71, span.rvts71
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts71:hover { color: #0000ff; }
+a.rvts72, span.rvts72
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts72:hover { color: #0000ff; }
+span.rvts73
 {
  font-family: '맑은 고딕';
  color: #000000;
 }
-span.rvts72
+span.rvts74
 {
  font-family: '맑은 고딕';
  font-weight: bold;
  color: #000000;
 }
-span.rvts73
+span.rvts75
 {
  font-size: 8pt;
  font-family: '맑은 고딕';
  font-weight: bold;
  color: #000000;
 }
-span.rvts74
+span.rvts76
 {
  font-size: 7pt;
  font-family: '맑은 고딕';
