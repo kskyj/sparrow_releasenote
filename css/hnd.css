@@ -412,25 +412,39 @@ a.rvts73, span.rvts73
  text-decoration: underline;
 }
 a.rvts73:hover { color: #0000ff; }
-span.rvts74
+a.rvts74, span.rvts74
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts74:hover { color: #0000ff; }
+a.rvts75, span.rvts75
+{
+ font-family: '맑은 고딕';
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts75:hover { color: #0000ff; }
+span.rvts76
 {
  font-family: '맑은 고딕';
  color: #000000;
 }
-span.rvts75
+span.rvts77
 {
  font-family: '맑은 고딕';
  font-weight: bold;
  color: #000000;
 }
-span.rvts76
+span.rvts78
 {
  font-size: 8pt;
  font-family: '맑은 고딕';
  font-weight: bold;
  color: #000000;
 }
-span.rvts77
+span.rvts79
 {
  font-size: 7pt;
  font-family: '맑은 고딕';
