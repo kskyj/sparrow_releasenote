@@ -1,0 +1,301 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+   <title>SPARROW Release &gt; 4.4.1</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="">
+   <meta name="description" content="4.4.1">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link type="text/css" href="default.css" rel="stylesheet">
+   <link type="text/css" href="custom.css" rel="stylesheet">
+   <script type="text/javascript" src="nsh.js"></script>
+
+<script type="text/javascript">   
+// Toggle Toggler 
+
+var toggleCount=false;
+var switchState;
+
+function toggleToggles() {
+
+    if (!toggleCount) {
+     toggleCount = true;
+     HMToggleExpandAll(true);
+     switchState = true;
+     }
+   
+     else if (switchState) {
+        HMToggleExpandAll(false);
+        switchState = false;
+        }
+        
+     else  {
+        HMToggleExpandAll(true);
+        switchState = true;
+        } 
+    }
+</script>
+   
+<!-- non-scrolling headers for CHM and browser-based help, local styles-->
+<style type="text/css" media="screen"> 
+html, body { margin:0; 
+   padding:0; 
+   overflow: hidden; 
+   background: #FFFFFF; 
+  }
+ 
+div#printheader { 
+   display: none;
+   padding-bottom: 10px;
+   }
+   #idheader { 
+      width:100%; 
+      height:auto; 
+      padding: 0; 
+      margin: 0; 
+} 
+    #idheaderbg  {
+    background: #6F6F6F; 
+}
+   #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+   #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+   #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+   #callout-table a {text-decoration: none; color: blue;}
+   #callout-table a:visited {text-decoration: none; color: blue;}
+   #overview-table a {text-decoration: none; color: black;}
+   #overview-table a:visited {text-decoration: none; color: black;}
+   #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}
+   p.help-url { margin: 20px 0 5px 0; text-align: center; font-size: 80%; text-decoration: none }
+   </style>
+<!--[if lt IE 7]>
+<style type="text/css">
+  #idcontent {padding: 0px;} 
+  #innerdiv {padding: 10px 5px 5px 10px ;} 
+</style> 
+<![endif]-->
+<noscript>
+<style type="text/css">
+html, body { overflow: auto; }
+</style> 
+</noscript>
+<style type="text/css" media="print">
+span.f_Heading1 { color: black; }
+#idheader, #printheader img { display:none; }
+#printheader { display: block; margin-top: 20px; }
+#idcontent { margin-top: 10px; }
+</style>   
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+
+   <script type="text/javascript">
+     HMSyncTOC("index.html", "4_4_1.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+<body>
+<!--ZOOMSTOP-->
+
+<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1">4.4.1</span></h1>
+</div> 
+<div id="idheader">
+<div id="idheaderbg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" 
+       style="margin: 0px; background: url(header_bg.jpg);">
+
+  <tr valign="bottom">
+    <td align="left" valign="bottom" class="topichead">
+   <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+   
+   <a href="sparrow_release.htm">SPARROW Release</a>&nbsp;&gt;</p>
+   <h1 class="p_Heading1"><span class="f_Heading1">4.4.1</span></h1>
+
+    </td>
+    <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+    
+     <a href="4_4_2.htm"
+        onmouseover="document.images.prev.src='btn_prev_h.gif'" 
+        onmouseout="document.images.prev.src='btn_prev_n.gif'"
+        ><img name=prev src="btn_prev_n.gif" border=0 alt="Previous page"
+        ></a><a href="sparrow_release.htm"
+        onmouseover="document.images.main.src='btn_home_h.gif'" 
+        onmouseout="document.images.main.src='btn_home_n.gif'"><img name=main src="btn_home_n.gif" border=0 alt="Return to chapter overview"
+        ></a><a href="4_4.htm"
+        onmouseover="document.images.next.src='btn_next_h.gif'" 
+        onmouseout="document.images.next.src='btn_next_n.gif'"><img name=next src="btn_next_n.gif" border=0 alt="Next page"
+        ></a>
+    </td>
+  </tr>
+  <tr><td colspan="2" style="height: 3px; background: url(header_bg_shadow.gif)"></td></tr>
+</table>
+</div>
+
+<!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+  
+
+</div>  
+
+
+
+<div id="idcontent"><div id="innerdiv"> 
+<!--ZOOMRESTART-->
+<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑�? 고딕';">Release Name: </span><span style="font-family: '맑�? 고딕'; font-weight: bold;">SPARROW v4.4.1</span></p>
+<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑�? 고딕';">Release Date: </span><span style="font-family: '맑�? 고딕'; font-weight: bold;">2012/04/20</span></p>
+<p><span style="font-size: 14pt; font-family: '맑�? 고딕'; font-weight: bold; color: #365f91;">Features</span></p>
+<p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕';">· 체커 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">· Defect List개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">· 엔진 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">· 내부 동작 속도 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">· 디버그 옵션 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">· HTML 메뉴얼 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">· 기타 개선</span></p>
+<p style="line-height: 1.50;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">체커 개선</span></p>
+<p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 신규 체커 2건</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table style="width:100%; border:solid 1px #000000; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:336px; padding:1px; border:solid 1px #000000;"><p style="text-align: center; background: #e5e5e5;"><span style="font-family: '맑�? 고딕'; font-weight: bold;">Checker Name</span></p>
+</td>
+<td style="vertical-align:top; width:954px; padding:1px; border:solid 1px #000000;"><p style="text-align: center; background: #e5e5e5;"><span style="font-family: '맑�? 고딕'; font-weight: bold;">Description</span></p>
+</td>
+<td style="vertical-align:top; width:530px; padding:1px; border:solid 1px #000000;"><p style="text-align: center; background: #e5e5e5;"><span style="font-family: '맑�? 고딕'; font-weight: bold;">Note</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:middle; width:336px; padding:1px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-family: '맑�? 고딕';">DOUBLE_CLOSE</span></p>
+</td>
+<td style="vertical-align:top; width:954px; padding:1px; border:solid 1px #000000;"><p><span style="font-family: '맑�? 고딕';">Double Free와 비슷하게 할당된 자원을 이미 한번 돌려준 후에 다시 한번 닫으려할 때 발생하는 오류입니다. </span></p>
+</td>
+<td style="vertical-align:top; width:530px; padding:1px; border:solid 1px #000000;"><p><span style="font-family: '맑�? 고딕';">기존 DOUBLE_FREE에서 발생한 부분에서 분리됨</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:middle; width:336px; padding:1px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-family: '맑�? 고딕';">INFORMATION_LEAK</span></p>
+</td>
+<td style="vertical-align:top; width:954px; padding:1px; border:solid 1px #000000;"><p><span style="font-family: '맑�? 고딕';">프로그램의 중요한 내부 정보 (환경 이나 사용자 관련 데이터)가 오류메시지나 다른 수단을 통해 노출되는 위험이 감지될 때 발생하는 오류입니다.</span></p>
+</td>
+<td style="vertical-align:top; width:530px; padding:1px; border:solid 1px #000000;"><p><span style="font-family: '맑�? 고딕';"> [오류메시지를 통한 정보노출:시큐어코딩가이드]</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">Defect List 개선</span></p>
+<p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- Risk 별 Level 색 강조</span></p>
+<p><span style="font-family: '맑�? 고딕';">DefectList에서 Risk 컬럼을 추가하였으며 Risk에 따라 색을 추가하였습니다.</span></p>
+<p><span style="font-family: '맑�? 고딕';">Level 1 : 빨강 / Level 2 : 주황 / Level 3 ~5 : 검정</span></p>
+<p><img src="embim35.png" width="628" height="264" style="margin:1px; border:none" alt="" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">엔진 개선</span></p>
+<p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 윈도우 엔진 죽는 현상 수정</span></p>
+<p><span style="font-family: '맑�? 고딕';">opus1, opus1pf, opus2에 관해서 윈도우에서 대용량 파일 소스 처리시 죽는 현상을 stacksize를 조절하여 해결</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 엔진 제어</span></p>
+<p><span style="font-family: '맑�? 고딕';">엔진 프로세스를 PID를 통해 제어(kill) 할 수 있습니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 엔진 타임아웃 설정</span></p>
+<p><span style="font-family: '맑�? 고딕';">opus1타임 아웃을 지정하도록 변경하였습니다. sparrow.propeties 에서 아래의 항목을 수정하면 됩니다.</span></p>
+<p><span style="font-family: '맑�? 고딕';">debug.opus1.kill.timeout=6000 (단위 ms)</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- $tmp표현 감소</span></p>
+<p><span style="font-family: '맑�? 고딕';">분석시 경로가 축약되는 $tmp표시를 대폭 줄여 정확히 나오게 변경하였습니다.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">내부 동작 속도 개선</span></p>
+<p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- plover 옵션 처리 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">edg에서 들어오는 옵션중 성공한 옵션만 Plover로 전달합니다. edg가 실패하면 해당 전처리 파일은 plover가 작동 되지 않습니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- sed 처리 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">sed 수행 후 sed리스트를 통해 다음번 분석시 sed리스트에 없는것만 sed를 수행합니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- Preset 강화</span></p>
+<p><span style="font-family: '맑�? 고딕';">분석과 파싱에 필요한 항목을 세분화 하고 원하는 항목을 각각 선택하여 프리셋을 구성하도록 변경 하였습니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- Preset 세분화</span></p>
+<p><span style="font-family: '맑�? 고딕';">GNU, AIX, HPUX, SUNOS 등을 추가하였습니다. </span><span style="font-family: '맑�? 고딕'; color: #ff0000;">분석시 AIX,HPUX,SUNOS 와 같이 특별한 파싱옵션이 추가되야 하는 경우는 반드시 PRESET을 이용하여 분석 해야합니다. </span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">디버그 옵션 추가</span></p>
+<p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 엔진 출처 옵션</span></p>
+<p><span style="font-family: '맑�? 고딕';">분석시 --debug-enginename 를 수행하면 분석후 체커 옆에 엔진 바이너리명이 표시됩니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 강제 sed옵션</span></p>
+<p><span style="font-family: '맑�? 고딕';">분석시 --debug-sed를 수행하면 sed리스트와 관계 없이 무조건 sed를 수행 합니다.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">HTML 메뉴얼 개선</span></p>
+<p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- HTML 메뉴 세분화</span></p>
+<p><img src="embim36.png" width="626" height="493" style="margin:1px; border:none" alt="" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">기타 개선</span></p>
+<p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 프로그레스바 처리 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">프로그레스바에 신규엔진의 동작 상황을 추가하였습니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 업데이트 과정 세분화</span></p>
+<p><span style="font-family: '맑�? 고딕';">업데이트 과정에 프로그레스를 추가 하였습니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- sparrow 폴더 백업</span></p>
+<p><span style="font-family: '맑�? 고딕';">all/prep 로 분석시 sparrow폴더가 있을 경우 sparrow.bak로 백업한후 새로 분석을 합니다.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 휘슬 매니저 구동시 업데이트</span></p>
+<p><span style="font-family: '맑�? 고딕';">휘슬 매니저 처음 로그인시 업데이트 하도록 변경</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- HPUX 후킹 모듈 개선</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- WINCE 후킹 모듈 지원</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 인스톨러 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">설치 화면이 아래와 같이 변경 되었습니다.</span></p>
+<p style="text-align: justify; line-height: 1.15; margin: 0px 0px 13px 0px;"><img src="embim37.gif" width="542" height="333" style="margin:1px; border:none" alt="" /><span style="font-family: '맑�? 고딕';"> </span></p>
+
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript">
+
+var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+if( document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh" )
+{
+ if (document.all) setTimeout(function() {nsrInit();},20); 
+    else nsrInit();
+ } 
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

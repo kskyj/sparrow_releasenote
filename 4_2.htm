@@ -1,0 +1,431 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+   <title>SPARROW Release &gt; 4.2</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="">
+   <meta name="description" content="4.2">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link type="text/css" href="default.css" rel="stylesheet">
+   <link type="text/css" href="custom.css" rel="stylesheet">
+   <script type="text/javascript" src="nsh.js"></script>
+
+<script type="text/javascript">   
+// Toggle Toggler 
+
+var toggleCount=false;
+var switchState;
+
+function toggleToggles() {
+
+    if (!toggleCount) {
+     toggleCount = true;
+     HMToggleExpandAll(true);
+     switchState = true;
+     }
+   
+     else if (switchState) {
+        HMToggleExpandAll(false);
+        switchState = false;
+        }
+        
+     else  {
+        HMToggleExpandAll(true);
+        switchState = true;
+        } 
+    }
+</script>
+   
+<!-- non-scrolling headers for CHM and browser-based help, local styles-->
+<style type="text/css" media="screen"> 
+html, body { margin:0; 
+   padding:0; 
+   overflow: hidden; 
+   background: #FFFFFF; 
+  }
+ 
+div#printheader { 
+   display: none;
+   padding-bottom: 10px;
+   }
+   #idheader { 
+      width:100%; 
+      height:auto; 
+      padding: 0; 
+      margin: 0; 
+} 
+    #idheaderbg  {
+    background: #6F6F6F; 
+}
+   #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+   #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+   #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+   #callout-table a {text-decoration: none; color: blue;}
+   #callout-table a:visited {text-decoration: none; color: blue;}
+   #overview-table a {text-decoration: none; color: black;}
+   #overview-table a:visited {text-decoration: none; color: black;}
+   #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}
+   p.help-url { margin: 20px 0 5px 0; text-align: center; font-size: 80%; text-decoration: none }
+   </style>
+<!--[if lt IE 7]>
+<style type="text/css">
+  #idcontent {padding: 0px;} 
+  #innerdiv {padding: 10px 5px 5px 10px ;} 
+</style> 
+<![endif]-->
+<noscript>
+<style type="text/css">
+html, body { overflow: auto; }
+</style> 
+</noscript>
+<style type="text/css" media="print">
+span.f_Heading1 { color: black; }
+#idheader, #printheader img { display:none; }
+#printheader { display: block; margin-top: 20px; }
+#idcontent { margin-top: 10px; }
+</style>   
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+
+   <script type="text/javascript">
+     HMSyncTOC("index.html", "4_2.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+<body>
+<!--ZOOMSTOP-->
+
+<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1">4.2</span></h1>
+</div> 
+<div id="idheader">
+<div id="idheaderbg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" 
+       style="margin: 0px; background: url(header_bg.jpg);">
+
+  <tr valign="bottom">
+    <td align="left" valign="bottom" class="topichead">
+   <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+   
+   <a href="sparrow_release.htm">SPARROW Release</a>&nbsp;&gt;</p>
+   <h1 class="p_Heading1"><span class="f_Heading1">4.2</span></h1>
+
+    </td>
+    <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+    
+     <a href="4_2_1.htm"
+        onmouseover="document.images.prev.src='btn_prev_h.gif'" 
+        onmouseout="document.images.prev.src='btn_prev_n.gif'"
+        ><img name=prev src="btn_prev_n.gif" border=0 alt="Previous page"
+        ></a><a href="sparrow_release.htm"
+        onmouseover="document.images.main.src='btn_home_h.gif'" 
+        onmouseout="document.images.main.src='btn_home_n.gif'"><img name=main src="btn_home_n.gif" border=0 alt="Return to chapter overview"
+        ></a><a href="checker_reference.htm"
+        onmouseover="document.images.next.src='btn_next_h.gif'" 
+        onmouseout="document.images.next.src='btn_next_n.gif'"><img name=next src="btn_next_n.gif" border=0 alt="Next page"
+        ></a>
+    </td>
+  </tr>
+  <tr><td colspan="2" style="height: 3px; background: url(header_bg_shadow.gif)"></td></tr>
+</table>
+</div>
+
+<!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+  
+
+</div>  
+
+
+
+<div id="idcontent"><div id="innerdiv"> 
+<!--ZOOMRESTART-->
+<p><span style="font-family: '맑�? 고딕';">Released date 30 Nov. 2011</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕';">-- Component </span></p>
+<p><span style="font-family: '맑�? 고딕';">- NEST C/C++/JAVA/JSP</span></p>
+<p><span style="font-family: '맑�? 고딕';">- OPUS1 for C/C++</span></p>
+<p><span style="font-family: '맑�? 고딕';">- WHSITE for C/C++</span></p>
+<p><span style="font-family: '맑�? 고딕';">- WHISTLE GUI for C/C++</span></p>
+<p><span style="font-family: '맑�? 고딕';">- WHSITE for JAVA (Beta)</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕';">-- Compatibility</span></p>
+<p><span style="font-family: '맑�? 고딕';">- Eclipse 2.0</span></p>
+<p><span style="font-family: '맑�? 고딕';">- Hudson Plugin 1.0 for C/C++</span></p>
+<p><span style="font-family: '맑�? 고딕';">- Hudson Plugin 1.0 for JAVA (Beta)</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕';">--Requirement</span></p>
+<p><span style="font-family: '맑�? 고딕';">*NEST</span></p>
+<p><span style="font-family: '맑�? 고딕';">- JDK 1.5 or above</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕';">*WHISTLE</span></p>
+<p><span style="font-family: '맑�? 고딕';">- JRE 1.5 or above</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕';">--Features</span></p>
+<p><span style="font-family: '맑�? 고딕';">Added defect navigator</span></p>
+<p><span style="font-family: '맑�? 고딕';">Added duplicated defect detection</span></p>
+<p><span style="font-family: '맑�? 고딕';">Added detail analysis information page</span></p>
+<p><span style="font-family: '맑�? 고딕';">Added defect description</span></p>
+<p><span style="font-family: '맑�? 고딕';">Added custom setting for easy setting</span></p>
+<p><span style="font-family: '맑�? 고딕';">Added project import</span></p>
+<p><span style="font-family: '맑�? 고딕';">Added user permission</span></p>
+<p><span style="font-family: '맑�? 고딕';">Support all encoding in report</span></p>
+<p><span style="font-family: '맑�? 고딕';">Sharing classification all or each project</span></p>
+<p><span style="font-family: '맑�? 고딕';">Support Visual studio solution(vs6~2010)</span></p>
+<p><span style="font-family: '맑�? 고딕';">Upgrade Defect list UI for Convenience</span></p>
+<p><span style="font-family: '맑�? 고딕';">Fixed many parsing error</span></p>
+<p><span style="font-family: '맑�? 고딕';">Improved parsing error condition </span></p>
+<p><span style="font-family: '맑�? 고딕';">Many bug fixed</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕';">--Supported site issue</span></p>
+<p><span style="font-family: '맑�? 고딕';">인피니트 헬쓰케어 parsing error</span></p>
+<p><span style="font-family: '맑�? 고딕';">이오테크닉스 false alarm</span></p>
+<p><span style="font-family: '맑�? 고딕';">새마을금고, 수협 parsing error</span></p>
+<p><span style="font-family: '맑�? 고딕';">다산네트웍스 ND false alarm </span></p>
+<p><span style="font-family: '맑�? 고딕';">인피니트 proc parsing error</span></p>
+<p><span style="font-family: '맑�? 고딕';">KTB 증권 cc 확장자 지원</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑�? 고딕';">--changelog</span></p>
+<p><span style="font-family: '맑�? 고딕';">You can have a loot at 4.2 http://192.168.20.178:3000/versions/28 for the entire list of new, improved features and bug fixes.</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #270: [NEST] - Project Import기능</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #287: 리포트 화면에 들어가는 엔코딩 풀다운 내용을 수정할 수 있는 화면 및 기능 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #293: [NEST] 프로젝트 classification 공유</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #297: [NEST] - 리포트 네비게이터 기능</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #298: whistle JSP 지원</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #368: 휘슬GUI 옵션 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #391: 로그 page 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #405: JSP REPORT</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #480: 파일 information 에 헤더 토글 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #594: scan page에서 incremental 토글</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #631: Whistle GUI 에서 edg option list 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #640: 저장된 필터 사용시 Defects 에 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #666: Project list 옵션 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #667: sparrow-mkproj 에 Independent 옵션 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #668: Defect annotation 옵션추가 _whistle_GUI</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #669: Add project 에 Defect annotation 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #670: Project 페이지 Defect annotation 방법 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #691: Project edit 페이지에 defect annotation 방법 변경 창 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #703: sparrow-run 구동시 NEST접속 URL 보여줌</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #708: navigator 포커스시 소스부분 라인 하이라이트로 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #709: 디터미넌트 중복알람(같은/다른 project) classification 같이 변경되는 기능</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #729: JSP Report - Sementic checker 에서 Navigavitor 작동</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #739: 분석 LOG 정보 업로드</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #743: Visual studio 2008 sln, vcproj 분석하여 전처리 파일 생성</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #756: page URL 복사 기능 또는 URL 풀어서 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #759: C 체커 전체 관리하는 xml 제작</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #773: whistle gui BD 옵션 지원</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #775: Visual studio 6 sln, vcproj 분석하여 전처리 파일 생성</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #819: Analysis Detail 관련 수정</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #833: custom setting 제작</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #839: 오류 상태 변경하고 save 누르지 않고 페이지 변경 하였을 경우 팝업 메시지 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #850: 오류 description 탭으로 제공- JAVA</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #851: JAVA 체커 전체 관리하는 xml 제작</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #868: Visual studio 2005 sln, vcproj 분석하여 전처리 파일 생성</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #869: Visual studio 2010 sln, vcxproj 분석하여 전처리 파일 생성</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #880: Severity --&gt; Priority 로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #914: 윈도우의 경우 닷넷 3.5 이상 필요</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #948: for 문안에 선언한것 파싱에러</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #980: Language 숨긴것 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">새기능 #1159: opus1 64bit engine for windows</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #255: [설치] 설치패키지 정리</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #258: 빌드명령어 NEST 로 받아오도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #274: 휘슬용 Package 필요</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #276: Nest Report : prev, next 누르면 검색된대로 나오도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #281: unix 계열 SPARROW_BIN 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #289: ctag를 만들때 append 수를 사용자가 정하지 않고 자동으로 되도록 수정</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #291: NEST UI를 Ajax로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #299: 소스를 모을 때 meta_source_files과 source_files 폴더에 소스가 중복이 되서 저장되므로써 용량 낭비 문제.</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #301: User 권한 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #313: 디렉토리 구조 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #320: whistle 단계 추가 xml_upload단계 (기존 scan 을 지워야 업로드 됨)</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #342: 80 부터 analysis report 보이도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #344: 검색조건에서 exclude 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #389: 필터에서 checker.txt 정보 표시 필요</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #390: multiple change 할때 로딩중 표시 필요.</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #406: edg log 부분 성공 실패 여부 맨뒤로 이동</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #466: whistle 메시지 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #477: Annotation에 작성자, 이름 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #499: 디렉토리뷰 +/ - 고정</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #519: NEST inner Class 리포트 대응</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #529: Defect List에서 검색 필터 기억 되기</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #540: tomcat,pgsql 이 같은 포트로 실행되어 있을 경우 알 수 없음</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #541: 포트 설정 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #566: complex 체커는 옵션으로 처리</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #567: 필터에 complex 항목 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #568: defect list 와 project group 에서 complex 제거</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #586: edg,engine 에 들어온 input list 필요</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #591: intentional(hide)로 변경하고 false와 같이 체크할경우 안보이게함</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #598: navigator call,branch default는 체크 해제, report branch 숫자 제거(0.1...등)</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #599: project information 에 incremental/full/all 선택할수 있도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #607: 통신오류일때 설정된 ip를 오류메시지에 리턴하도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #613: project information Allfiles추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #614: NEST 에서 files -&gt; source files로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #617: file information -&gt; Analyzed File Information 으로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #621: Hide 한 알람 표시 방법 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #627: 로딩되는 화면 나타나기(Project 삭제, defect list 로딩, source코드 로딩)</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #629: Multiple change default 열기, Multiple과 Filter 쿠키로 저장</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #633: 분석시 75%에서 세분화 필요</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #637: defect group 에서 사용하고 있는것 지울때 포함되고 있다는것을 팝업으로 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #638: 프로젝트 이름 입력후 앤터키 누르면 생성되도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #641: 휘슬 옵션명 변경 -C --&gt; -F</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #642: whistle_gui에도 -F 옵션 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #662: prebuild선택시 analysis_only 로 되도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #671: 리포트 화면의 코드에서 따움표(&quot;) 안에 있는 문자열 표시가 안됨.</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #697: annotation 변경시 save 옆에 메시지 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #698: Whistle_GUI 옵션 tab모양으로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #702: Annotation에 출처 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #716: 분석중일때 defect list 에 표시</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #719: Project page default 정렬 ID 역순으로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #724: clean 이 안되서 분석 대상이 생기지 않을 경우 메시지 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #737: 네비게이터 수정</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #754: Defect ID 에 마우스 오버시 밑줄 그도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #762: Recurred 안에 resolved 포함</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #772: 휘슬 -BD 옵션 수정</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #786: 오류가 없을 경우 업로드 하도록 설정 필요.</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #788: 분석 후 성공했더라도, sparrow 폴더안의 내용 삭제하지 말것</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #807: project, scan page 에 Mode 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #826: sparrow. properties 이상함에 따른 메시지 필요.</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #846: sln 외에 vcproj 지원</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #849: Level1,2,3 -&gt; High , MID, LOW 로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #854: 아이피 설정 잘못했을시 메시지 수정</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #863: whistle_GUI Visual studio version 무조건 고르도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #879: whistlegui 에는 ide path 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #881: rmi 스크립트 class for문으로 넣지 말것</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #885: 리눅스 배포판 zip으로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #890: defect group에서 변경후 저장안하고 페이지 변경될경우 메시지 나오게함</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #893: opus1 윈도우 버젼 Release 필요</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #900: defect group default 삭제</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #901: Project 페이지에 Language , 풀다운 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #926: Report Page에서 작성중인 Comment 유지</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #928: Defects화면에서 작성되어 있는 comment 복사 시 comment 화면이 사라짐</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #934: 잘못된 옵션 들어갓을 경우 잘못된 오류값 리턴</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #937: JAVA defect group 업데이트</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #940: Java 의 경우 navigation 에서 call 항상 체크되어 있도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #942: Type --&gt; Checkers 로변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #958: Project 정렬기준 last scan id 로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #964: 엔진등록 방법 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #968: whistle gui OD 수정</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #970: ND에서 assert false alarm 제거</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #977: unix 계열을 위해 sh 이름 삭제</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1004: Enable opus1 MEMSET for 4.2</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1005: msvc 에서 파싱실패시 --wchar_t_keyword 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1027: --projectlist 옵션 개선</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1038: status -&gt; state 로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1039: whistle gui 에 new 클릭시 프로젝트 생성화면 나오도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1055: 인피티트헬쓰케어 parsing error - init list too long</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1056: 인피티트헬쓰케어 parsing error - i64 suffix</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1064: java semantic 2.2.0-20 업데이트</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1085: 이오테크닉스 false alarm - memory leak</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1104: edgcpfe.gcc --g++ 실행하도록.</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1158: project information 표,그래프 역순 버튼 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1169: edgcpfe.gnu --gcc 실행하도록.</span></p>
+<p><span style="font-family: '맑�? 고딕';">개선 #1180: sed.txt 업로드 하도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #253: cpp 전처리후 0 size 생기는것</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #269: 64비트 윈도우즈에 sparrow4 설치 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #277: scan 테이블 한개 있을때 삭제 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #328: multiple selection 체크 항상 true</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #330: defect group 에서 category 1개만 넣을 경우 리스트에서 보이지 않음</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #362: [NEST] - 엔진 분산시스템 동작</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #366: sparrow-run 쉘 migrate 오류</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #379: 전처리 파일 삭제 오류</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #415: extract 2회때 null 에러</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #416: sbuild 휘슬에서 런타임으로 실행안됨 (hpux)</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #467: Nest Report 파싱 에러</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #475: whistle 중복옵션 체크 안함</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #478: ctags 로 이동후 하이라이트 서치 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #490: 윈도우 빌드시 파일or경로에 대문자가 있는 파일은 defect 업로드가 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #493: 0 size 전처리 파일 있을시 extract 에러</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #498: vs 6 분석후 sparrow 폴더에 ti 파일 생성됨.</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #542: 오류 description 탭으로 제공 C/C++</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #543: optdir 상대경로 인식 못함</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #563: firefox 에서 소스코드 보이지 않음</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #585: pgsql start 했는데도 error 나오는 현상</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #587: java tag 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #600: filter 저장된것 설정후 다시 들어가면 None으로 변경됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #601: 저장하고 나면 Filter가 None으로 변경됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #603: makeProject 안됨 NullPointer 에러</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #604: Whistle Java 분석 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #605: Report Navigator - Branch Call 체크버튼 자바스크립트 에러로 동작안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #630: 분석중에 멈추었을 경우 안되는 현상</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #636: 특정 Java 프로젝트 분석중 런타임 오류가 남</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #639: 파일이 변경되고 새로운 오류가 발생한 파일에서 인크리멘탈 분석시 무조건 new로 나오는 현상</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #647: go to defect 유효성 검사 없음</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #648: bar graph 동작 안함</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #676: Defect Group 한글 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #717: 프로젝트 없을시 메시지 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #718: NEST project 삭제 에러</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #723: 프로젝트를 전체 삭제해도 기존 annotation 이 남는현상.</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #738: JSP Sementic - xml 라인 위치가 맞지 않음</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #746: 64비트OS 32bit JAVA 실행 안됨 - 32bit JVM 을 사용할 것</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #771: whistle_GUI 64bit 지원</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #780: SPARROW4.1.x (릴리즈 버전)와 SPARROW4.2 (개발 버전)에 opus1 엔진을 업데이트 관련 휘슬 수정 사항.</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #785: scan 에서 delete시 무한루프</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #797: Report 페이지 definition이 현재 설정으로 맞춰져 있지 않음.</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #798: 09/21 업데이트 이후 CTAGS 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #808: Independence project 임에도 변경안했는데 recurred 나옴</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #810: excel export 시 파일 이름 null들어감</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #823: 빌드할것이 없어서 종료될때 나오는 에러메시지 변경필요.</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #836: 중복 argument 사용했을 때 java 오류</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #837: memset 검출 못함</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #843: win 버젼 설치 실패</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #847: nulldevenv, nmake 일경우 종료.</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #848: analyzing 인 상태로 계속 있음. 분석 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #855: 아이피 설정 잘못했을시 포트번호 나오지 않음</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #870: vs 분석후 gnu 선택시 msvc실행됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #873: sbuild 사용 안할시 sparrow 폴더 삭제하지 않아 기존것이 남아있음</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #874: 한글 폴더에 코드 있는경우 DB 업데이트 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #877: custom 옵션 이상하게 동작함</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #891: defect group 변경하면 default 로 변경됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #892: opus 옵션 부재</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #907: WhistleGui에서 Checker 선택하면 version이 틀려서 분석 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #920: 엔진에서 MSVC10 분석 오류</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #921: Defect definition multiple change (all) 동작 에러</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #927: 파이어폭스 화면에서 Report 페이지의 save 기능이 이상함.</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #929: Report 페이지 history를 ajax로 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #930: Whistle CV 버그</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #935: polver 에 edg 통과한 전처리 파일로 분석 하도록 변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #946: whistle gui 에 custom , sed 기능 없음</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #950: gnu cpp 무조건 파싱에러 남.</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #956: project id 에 null이 들어가서 server를 계속 못찾음</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #957: pending 했을경우 hidden 나옴</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #962: JAVA runtime시 한글 깨짐현상</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #997: sln , vcproj 선택후 buildpath 변경하면 오류남</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1001: 휘슬gui 실행후 화면이 늘어져 있음</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1017: 공백 폴더 에서 동작 안함</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1031: custom setting 서버모드시 ant 홈 물어보지 않음 / ARCHITECTURE 이름변경</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1044: license property 수정</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1045: Proc opus1 파싱에러</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1054: cc확장자 sbuild 인식 안됨</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1068: 서버 license 를 재발급 하면 기존에서 사용자 에러남</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1099: sync시NEST 에 메모 삭제</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1102: 빨간색 화살표 링크 버그</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1138: MEMSET COMPLEX 추가</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1178: CV 옵션 숫자만 인식하도록</span></p>
+<p><span style="font-family: '맑�? 고딕';">결함 #1193: NEST - Report navigation(JAVA) 오류</span></p>
+
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript">
+
+var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+if( document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh" )
+{
+ if (document.all) setTimeout(function() {nsrInit();},20); 
+    else nsrInit();
+ } 
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
