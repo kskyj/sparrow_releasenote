@@ -23,7 +23,6 @@ pageinfo = [[0,0,0,0,null],
 	[0,0,0,0,null],
 	[0,0,0,0,null],
 	[0,0,0,0,null],
-	[0,0,0,0,null],
 	[0,0,0,0,null]];
 pagedata = [ ["4_2.htm","SPARROW Release &#62; 4.2","4.2",""],
 ["4_2_1.htm","SPARROW Release &#62; 4.2.1","4.2.1",""],
@@ -50,5 +49,4 @@ pagedata = [ ["4_2.htm","SPARROW Release &#62; 4.2","4.2",""],
 ["4_6.htm","SPARROW Release &#62; 4.6_working","4.6_working",""],
 ["4_6_1.htm","SPARROW Release &#62; 4.6.1","4.6.1",""],
 ["4_6_2.htm","SPARROW Release &#62; 4.6.2","4.6.2",""],
-["all_about_sparrow_ftsearch.htm","No title","SPARROW Release Contents | Index | Search Enter one or more keywords to search (&#39;*&#39; and &#39;?&#39; wildcards are supported): ",""],
 ["sparrow_release.htm","SPARROW Release","SPARROW Release Note",""]];

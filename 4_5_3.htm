@@ -143,51 +143,51 @@ span.f_Heading1 { color: black; }
 
 <div id="idcontent"><div id="innerdiv"> 
 <!--ZOOMRESTART-->
-<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '�?? ??????apos';">Release Name: </span><span style="font-family: '�?? ??????apos'; font-weight: bold;">SPARROW v4.5.3</span></p>
-<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '�?? ??????apos';">Release Date: </span><span style="font-family: '�?? ??????apos'; font-weight: bold;">2012/08/24</span></p>
-<p><span style="font-size: 14pt; font-family: '맑�? 고딕'; font-weight: bold; color: #365f91;">Features</span></p>
+<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑?? ??????apos';">Release Name: </span><span style="font-family: '맑?? ??????apos'; font-weight: bold;">SPARROW v4.5.3</span></p>
+<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑?? ??????apos';">Release Date: </span><span style="font-family: '맑?? ??????apos'; font-weight: bold;">2012/08/24</span></p>
+<p><span style="font-size: 14pt; font-family: '맑은 고딕'; font-weight: bold; color: #365f91;">Features</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">· 엔진 개선</span></p>
-<p><span style="font-family: '맑�? 고딕';">- OVERRUN.STATIC.MEMSET 정확도 향상</span></p>
-<p><span style="font-family: '맑�? 고딕';">- Proframe 을 위한 Extend library 수정</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">· 엔진 개선</span></p>
+<p><span style="font-family: '맑은 고딕';">- OVERRUN.STATIC.MEMSET 정확도 향상</span></p>
+<p><span style="font-family: '맑은 고딕';">- Proframe 을 위한 Extend library 수정</span></p>
 <p style="line-height: 1.50;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
 <p style="line-height: 1.50;"><span style="color: #000000;">&nbsp;</span></p>
-<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">엔진 개선</span></p>
+<p><span style="font-size: 11pt; font-family: '맑은 고딕'; font-weight: bold; color: #4f81bd;">엔진 개선</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- OVERRUN.STATIC.MEMSET 정확도 향상</span></p>
-<p><span style="font-family: '맑�? 고딕';">아래와 같은 사항에서 정확도 향상</span></p>
-<p><span style="font-family: '맑�? 고딕';">Case 1) 구조체 변수의 주소가 dest일 때</span></p>
-<p><span style="font-family: '맑�? 고딕';">struct ss {</span></p>
-<p><span style="font-family: '맑�? 고딕';">char a[10];</span></p>
-<p><span style="font-family: '맑�? 고딕';">….</span></p>
-<p><span style="font-family: '맑�? 고딕';">}</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- OVERRUN.STATIC.MEMSET 정확도 향상</span></p>
+<p><span style="font-family: '맑은 고딕';">아래와 같은 사항에서 정확도 향상</span></p>
+<p><span style="font-family: '맑은 고딕';">Case 1) 구조체 변수의 주소가 dest일 때</span></p>
+<p><span style="font-family: '맑은 고딕';">struct ss {</span></p>
+<p><span style="font-family: '맑은 고딕';">char a[10];</span></p>
+<p><span style="font-family: '맑은 고딕';">….</span></p>
+<p><span style="font-family: '맑은 고딕';">}</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕';">void foo() {</span></p>
-<p><span style="font-family: '맑�? 고딕';">struct ss s;</span></p>
-<p><span style="font-family: '맑�? 고딕';">bzero(&amp;s, sizeof(struct ss)); // 여기서 구조체 변수의 주소를 취하면, 항상 dest size가 11이라고 나와서 false alarm 이 발생(src size는 정상)</span></p>
-<p><span style="font-family: '맑�? 고딕';">}</span></p>
+<p><span style="font-family: '맑은 고딕';">void foo() {</span></p>
+<p><span style="font-family: '맑은 고딕';">struct ss s;</span></p>
+<p><span style="font-family: '맑은 고딕';">bzero(&amp;s, sizeof(struct ss)); // 여기서 구조체 변수의 주소를 취하면, 항상 dest size가 11이라고 나와서 false alarm 이 발생(src size는 정상)</span></p>
+<p><span style="font-family: '맑은 고딕';">}</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕';">Case2) 2차원 배열</span></p>
-<p><span style="font-family: '맑�? 고딕';">Void foo() {</span></p>
-<p><span style="font-family: '맑�? 고딕';">Char tmp[10][16];</span></p>
-<p><span style="font-family: '맑�? 고딕';">bzero(tmp, sizeof(tmp)); // 이 경우 dest의 크가가 90으로 나와서 false alarm 발생(src size는 정상)</span></p>
-<p><span style="font-family: '맑�? 고딕';">}</span></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- Proframe 을 위한 Extend library 수정</span></p>
-<p><span style="font-family: '맑�? 고딕';">Extend library를 &nbsp;수정하여 Proframe 에서 분석 정확도를 개선하였습니다.</span></p>
+<p><span style="font-family: '맑은 고딕';">Case2) 2차원 배열</span></p>
+<p><span style="font-family: '맑은 고딕';">Void foo() {</span></p>
+<p><span style="font-family: '맑은 고딕';">Char tmp[10][16];</span></p>
+<p><span style="font-family: '맑은 고딕';">bzero(tmp, sizeof(tmp)); // 이 경우 dest의 크가가 90으로 나와서 false alarm 발생(src size는 정상)</span></p>
+<p><span style="font-family: '맑은 고딕';">}</span></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- Proframe 을 위한 Extend library 수정</span></p>
+<p><span style="font-family: '맑은 고딕';">Extend library를 &nbsp;수정하여 Proframe 에서 분석 정확도를 개선하였습니다.</span></p>
 <p>&nbsp;</p>
-<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">기타 개선</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑은 고딕'; font-weight: bold; color: #4f81bd;">기타 개선</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- sbuild 에서 컴파일러 3개이상 인식 못하는 것 수정</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- sbuild 에서 컴파일러 3개이상 인식 못하는 것 수정</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 기타 버그 수정</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- 기타 버그 수정</span></p>
 
 <!--ZOOMSTOP-->
 </div></div>

@@ -223,6 +223,14 @@ function ZHighlightText(terms, text)
             var l = 0;
             re = new RegExp(terms[i], "gi");
             var count = 0; // just incase
+			
+			// Correction by Tim Green for bug with pointed brackets inside the hilighted text node
+			text = text.replace(/<(?![\/]?span)/g, "&lt;");
+			text = text.replace(">","&gt;");
+			text = text.replace(/span&gt;/g, 'span>');
+			text = text.replace(/"highlight"&gt;/g, '"highlight">');
+			// Correction end
+			
             text = ">" + text + "<"; // temporary tag marks
             do 
             {
@@ -268,8 +276,8 @@ function ZHighlightReplace(q, node)
 	var newtext = ZHighlightText(q, node_value);
 	if (newtext != node_value)
 	{
-		var repl = document.createElement('span');  
-		repl.innerHTML = newtext;  
+		var repl = document.createElement('span');
+		repl.innerHTML = newtext;
 		node.parentNode.replaceChild(repl, node);
 	}
 }

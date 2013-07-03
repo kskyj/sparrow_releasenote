@@ -84,3 +84,8 @@ p /* Normal */
   color: #777;
   box-shadow: 5px 5px 5px #888;
 }
+
+img.dropdown-toggle-icon /* pointer for toggle icons */
+{
+  cursor: pointer;
+}

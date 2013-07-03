@@ -143,45 +143,45 @@ span.f_Heading1 { color: black; }
 
 <div id="idcontent"><div id="innerdiv"> 
 <!--ZOOMRESTART-->
-<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑�? 고딕';">Release Name: </span><span style="font-family: '맑�? 고딕'; font-weight: bold;">SPARROW v4.4.4</span></p>
-<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑�? 고딕';">Release Date: </span><span style="font-family: '맑�? 고딕'; font-weight: bold;">2012/05/23</span></p>
-<p><span style="font-size: 14pt; font-family: '맑�? 고딕'; font-weight: bold; color: #365f91;">Features</span></p>
+<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑은 고딕';">Release Name: </span><span style="font-family: '맑은 고딕'; font-weight: bold;">SPARROW v4.4.4</span></p>
+<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑은 고딕';">Release Date: </span><span style="font-family: '맑은 고딕'; font-weight: bold;">2012/05/23</span></p>
+<p><span style="font-size: 14pt; font-family: '맑은 고딕'; font-weight: bold; color: #365f91;">Features</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">· 엔진 개선</span></p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">· 파싱 개선</span></p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">· 기타 개선</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">· 엔진 개선</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">· 파싱 개선</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">· 기타 개선</span></p>
 <p style="line-height: 1.50;"><span style="color: #000000;">&nbsp;</span></p>
 <p style="line-height: 1.50;"><span style="color: #000000;">&nbsp;</span></p>
-<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">엔진 개선</span></p>
+<p><span style="font-size: 11pt; font-family: '맑은 고딕'; font-weight: bold; color: #4f81bd;">엔진 개선</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 파라미터 달려있는 Memory Leak 검출 </span></p>
-<p><span style="font-family: '맑�? 고딕';">아래의 코드 메모리릭 검출함</span></p>
-<p><span style="font-family: '맑�? 고딕';">void sta_mem2(char *p, int size){</span></p>
-<p><span style="font-family: '맑�? 고딕';"> if(size&gt;0){</span></p>
-<p><span style="font-family: '맑�? 고딕';"> &nbsp;p = (char *)malloc(size);</span></p>
-<p><span style="font-family: '맑�? 고딕';"> &nbsp;p = (char *)malloc(size);</span></p>
-<p><span style="font-family: '맑�? 고딕';"> }</span></p>
-<p><span style="font-family: '맑�? 고딕';">}</span></p>
-<p><span style="font-family: '맑�? 고딕';">void main(void){</span></p>
-<p><span style="font-family: '맑�? 고딕';"> &nbsp;char *l_p=NULL;</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- 파라미터 달려있는 Memory Leak 검출 </span></p>
+<p><span style="font-family: '맑은 고딕';">아래의 코드 메모리릭 검출함</span></p>
+<p><span style="font-family: '맑은 고딕';">void sta_mem2(char *p, int size){</span></p>
+<p><span style="font-family: '맑은 고딕';"> if(size&gt;0){</span></p>
+<p><span style="font-family: '맑은 고딕';"> &nbsp;p = (char *)malloc(size);</span></p>
+<p><span style="font-family: '맑은 고딕';"> &nbsp;p = (char *)malloc(size);</span></p>
+<p><span style="font-family: '맑은 고딕';"> }</span></p>
+<p><span style="font-family: '맑은 고딕';">}</span></p>
+<p><span style="font-family: '맑은 고딕';">void main(void){</span></p>
+<p><span style="font-family: '맑은 고딕';"> &nbsp;char *l_p=NULL;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕';"> &nbsp;sta_mem(100);</span></p>
-<p><span style="font-family: '맑�? 고딕';"> &nbsp;sta_mem2(l_p,10);</span></p>
+<p><span style="font-family: '맑은 고딕';"> &nbsp;sta_mem(100);</span></p>
+<p><span style="font-family: '맑은 고딕';"> &nbsp;sta_mem2(l_p,10);</span></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">파싱 개선</span></p>
+<p><span style="font-size: 11pt; font-family: '맑은 고딕'; font-weight: bold; color: #4f81bd;">파싱 개선</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- Visual studio net용 sed추가</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- Visual studio net용 sed추가</span></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">기타 개선</span></p>
+<p><span style="font-size: 11pt; font-family: '맑은 고딕'; font-weight: bold; color: #4f81bd;">기타 개선</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 기타 버그 수정</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- 기타 버그 수정</span></p>
 
 <!--ZOOMSTOP-->
 </div></div>

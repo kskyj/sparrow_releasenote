@@ -193,17 +193,17 @@ var HMShowLightbox = function(htmlCode, startL, startT, startW, startH, endW, en
     lightboxWindow = parent.window;
   }
 
-  $(lightboxBody).append('<div id="hmlightboxbackground" style="z-index:99997;border:none;padding:0;margin:0;position:absolute;left:0;top:0;background-color:#7F7F7F"></div>');  
+  $(lightboxBody).prepend('<div id="hmlightboxbackground" style="z-index:99997;border:none;padding:0;margin:0;position:absolute;left:0;top:0;background-color:#7F7F7F"></div>');  
   var lightboxBackground = parentScope ? parent.$('#hmlightboxbackground') : $('#hmlightboxbackground'); 
   lightboxBackground.css('opacity', '0.5');
 
   if (parentScope) {
-  	$(lightboxBody).append('<div id="hmlightboxscrolllayer" style="z-index:99998;border:none;padding:0;margin:0;position:absolute;left:0;top:0;background:none;overflow:auto"></div>');
+  	$(lightboxBody).prepend('<div id="hmlightboxscrolllayer" style="z-index:99998;border:none;padding:0;margin:0;position:absolute;left:0;top:0;background:none;overflow:auto"></div>');
   	lighboxScrollLayer = parent.$('#hmlightboxscrolllayer');
   	lightboxBody = lighboxScrollLayer;  
   } 
 
-  $(lightboxBody).append('<div id="hmlightbox" style="z-index:99999;position:absolute;display:none"></div>');
+  $(lightboxBody).prepend('<div id="hmlightbox" style="z-index:99999;position:absolute;display:none"></div>');
   var lightbox = parentScope ? parent.$('#hmlightbox') : $('#hmlightbox');  
   var lightboxObject = $(htmlCode).appendTo(lightbox);
   var lightboxCaption = null;

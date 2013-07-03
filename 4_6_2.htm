@@ -143,55 +143,112 @@ span.f_Heading1 { color: black; }
 
 <div id="idcontent"><div id="innerdiv"> 
 <!--ZOOMRESTART-->
-<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑�? 고딕';">Release Name: </span><span style="font-family: '맑�? 고딕'; font-weight: bold;">SPARROW v4.6.2</span></p>
-<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑�? 고딕';">Release Date: </span><span style="font-family: '맑�? 고딕'; font-weight: bold;">2013/06/1</span></p>
-<p><span style="font-size: 14pt; font-family: '맑�? 고딕'; font-weight: bold; color: #365f91;">Features</span></p>
+<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑은 고딕';">Release Name: </span><span style="font-family: '맑은 고딕'; font-weight: bold;">SPARROW v4.6.2</span></p>
+<p style="text-align: right; text-indent: -27px; line-height: 1.50; margin: 0px 0px 0px 53px;"><span style="font-family: '맑은 고딕';">Release Date: </span><span style="font-family: '맑은 고딕'; font-weight: bold;">2013/07/03</span></p>
+<p><span style="font-size: 14pt; font-family: '맑은 고딕'; font-weight: bold; color: #365f91;">Features</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">· Eclipse Plugin 개선</span></p>
-<p><span style="font-family: '맑�? 고딕';">- 파일수집/NEST업로드 프로그레스 세분화</span></p>
-<p><span style="font-family: '맑�? 고딕';">- 라이선스 메시지 수정</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">· Eclipse Plugin 개선</span></p>
+<p><span style="font-family: '맑은 고딕';">- 파일수집/NEST업로드 프로그레스 세분화</span></p>
+<p><span style="font-family: '맑은 고딕';">- 라이선스 메시지 수정</span></p>
+<p><span style="font-family: '맑은 고딕';">- Eclipse Plugin properties 에 따라 옵션 뷰설정 및 동작 제어 개발</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">· 엔진 개선</span></p>
+<p><span style="font-family: '맑은 고딕';">- JSP 분석시 전용 체커만 분석하도록 변경</span></p>
+<p><span style="font-family: '맑은 고딕';">- 소스파일 인코딩 자동 감지하는 기능 추가</span></p>
+<p><span style="font-family: '맑은 고딕';">- Mingw 로 컴파일한 ocaml 엔진 적용</span></p>
+<p><span style="font-family: '맑은 고딕';">- 자동 로그인 항상 활성화 되도록 변경</span></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">· 기타 개선</span></p>
-<p><span style="font-family: '맑�? 고딕';">- rmi 에러시 로그 수집하도록 개선</span></p>
-<p><span style="font-family: '맑�? 고딕';">- Semantic 분석시 summary 파일 처리 개선</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">· 기타 개선</span></p>
+<p><span style="font-family: '맑은 고딕';">- rmi 에러시 로그 수집하도록 개선</span></p>
+<p><span style="font-family: '맑은 고딕';">- Semantic 분석시 summary 파일 처리 개선</span></p>
+<p><span style="font-family: '맑은 고딕';">- analysis 옵션으로 분석시 기존 map_files 폴더 삭제 </span></p>
+<p><span style="font-family: '맑은 고딕';">- inter_class_level 0 일때 인터클래스 동작(pre) 하지 않도록 변경</span></p>
+<p><span style="font-family: '맑은 고딕';">- extract 할때 파일 개수 보이도록 프로그레스바 세분화</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">· 버그 픽스</span></p>
+<p><span style="font-family: '맑은 고딕';">- 라인카운터 인코딩 버그 픽스</span></p>
+<p><span style="font-family: '맑은 고딕';">- TP 옵션 사용시 JSP extract 버그 픽스</span></p>
+<p><span style="font-family: '맑은 고딕';">- NEST Project info 화면 제거된 결함 그래프 표시 버그 픽스</span></p>
+<p><span style="font-family: '맑은 고딕';">- NEST PMD 체커 옵션 표시 버그픽스</span></p>
+<p><span style="font-family: '맑은 고딕';">- NEST Java 리포트 메시지 표시 버그 픽스</span></p>
+<p><span style="font-family: '맑은 고딕';">- Eclipse Plugin 설정시 OK 누를경우 체커그룹 N/A 변경 버그 픽스</span></p>
+<p><span style="font-family: '맑은 고딕';">- semantic 옵션 사용시 syntactic 동작 하지 않았던것 수정</span></p>
+<p><span style="font-family: '맑은 고딕';">- eclipse C plugin 동작시 간헐적으로 멈추는것 수정</span></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">· 버그 픽스</span></p>
-<p><span style="font-family: '맑�? 고딕';">- 라인카운터 인코딩 버그 픽스</span></p>
-<p><span style="font-family: '맑�? 고딕';">- TP 옵션 사용시 JSP extract 버그 픽스</span></p>
-<p><span style="font-family: '맑�? 고딕';">- NEST Project info 화면 제거된 결함 그래프 표시 버그 픽스</span></p>
-<p><span style="font-family: '맑�? 고딕';">- NEST PMD 체커 옵션 표시 버그픽스</span></p>
-<p><span style="font-family: '맑�? 고딕';">- NEST Java 리포트 메시지 표시 버그 픽스</span></p>
-<p><span style="font-family: '맑�? 고딕';">- Eclipse Plugin 설정시 OK 누를경우 체커그룹 N/A 변경 버그 픽스</span></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">Eclipse Plugin &nbsp;개선</span></p>
+<p><span style="font-size: 11pt; font-family: '맑은 고딕'; font-weight: bold; color: #4f81bd;">Eclipse Plugin &nbsp;개선</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 파일수집/NEST업로드 프로그레스 세분화</span></p>
-<p><span style="font-family: '맑�? 고딕';">파일수집, NEST 업로드 단계에서 프로그레스를 세분화 하였습니다.</span></p>
-<p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- 라이선스 메시지 수정</span></p>
-<p><span style="font-family: '맑�? 고딕';">라이선스 초과시 제공하는 메시지를 수정하였습니다.</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- 파일수집/NEST업로드 프로그레스 세분화</span></p>
+<p><span style="font-family: '맑은 고딕';">파일수집, NEST 업로드 단계에서 프로그레스를 세분화 하였습니다.</span></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- 라이선스 메시지 수정</span></p>
+<p><span style="font-family: '맑은 고딕';">라이선스 초과시 제공하는 메시지를 수정하였습니다.</span></p>
 <p>&nbsp;</p>
-<p><span style="font-size: 11pt; font-family: '맑�? 고딕'; font-weight: bold; color: #4f81bd;">기타 개선</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- Eclipse Plugin properties 에 따라 옵션 뷰설정 및 동작 제어 개발</span></p>
+<p><span style="font-family: '맑은 고딕';">플러그인에 프로퍼티를 설정하고, 해당 옵션에 따라 동작 함. 위치는 plugins 폴더안의 jar 파일 압축 해제하고, conf 안의 sparrow.eclipse.properties 파일을 수정</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕';">nest.upload.show.option=true --&gt; 분석 후 네스트 업로드 할지 보이는 옵션</span></p>
+<p><span style="font-family: '맑은 고딕';">interclass.level.show.option=true --&gt; 인터클래스 레벨 조절 보이는 옵션 설정</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕';">#Default value when options are false</span></p>
+<p><span style="font-family: '맑은 고딕';">nest.upload.default.value=true --&gt; 위의값이 false 일때 기본값</span></p>
+<p><span style="font-family: '맑은 고딕';">interclass.level.default.value=1 --&gt; 위의 값이 fasle 일때 기본값</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- 자동 로그인 항상 활성화 되도록 변경</span></p>
+<p><span style="font-family: '맑은 고딕';">로그인 여부와 관계없이 자동로그인 체크박스 항상 활성화 되도록 변경</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑은 고딕'; font-weight: bold; color: #4f81bd;">엔진 개선</span></p>
 <p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- rmi 에러시 로그 수집하도록 개선</span></p>
-<p><span style="font-family: '맑�? 고딕';">rmi를 통한 분석시 에러가 발생할 경우 로그를 수집하게 변경하였습니다.</span></p>
-<p><span style="font-family: '맑�? 고딕';"> &nbsp;sparrow4/logs 폴더에 파일 생성</span></p>
-<p><span style="font-family: '맑�? 고딕';"> &nbsp;upload-failed-whistle.log : 에러 발생한 시점의 sparrow-whistle.log를 백업해둠 20개까지</span></p>
-<p><span style="font-family: '맑�? 고딕';"> &nbsp;upload-failed-engine-client.log : 엔진 클라이언트 upload 메소드 진행 상황을 상세히 기록함. 에러가 아니면 파일 기록안함</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- JSP 분석시 전용 체커만 분석하도록 변경</span></p>
+<p><span style="font-family: '맑은 고딕';">JSP 분석시 아래 체커들만 분석하도록 변경함. 즉 JSP는 아래체커 + PMD 만 동작함</span></p>
+<p><span style="font-family: '맑은 고딕';">XSS</span></p>
+<p><span style="font-family: '맑은 고딕';">XSS_DOM</span></p>
+<p><span style="font-family: '맑은 고딕';">EVAL_INJECTION</span></p>
+<p><span style="font-family: '맑은 고딕';">CROSS_SITE_REQUEST_FORGERY</span></p>
+<p><span style="font-family: '맑은 고딕';">EXPOSURE_OF_ADMINISTRATION_PAGE</span></p>
+<p><span style="font-family: '맑은 고딕';">MISSING_AUTHENTICATION_CONTROL</span></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-family: '맑�? 고딕'; font-weight: bold;">- Semantic 분석시 summary 파일 처리 개선</span></p>
-<p><span style="font-family: '맑�? 고딕';">semantic engine이 전분석단계에서 summary 파일을 생성시 디렉토리 세분화 해서 생성하였습니다.</span></p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- 소스파일 인코딩 자동 감지하는 기능 추가</span></p>
+<p><span style="font-family: '맑은 고딕';">분석시 소스코드의 인코딩을 자동으로 감지하여 최대한 정확한 결과가 나오도록 변경</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- Mingw 로 컴파일한 ocaml 엔진 적용(opus1만 적용)</span></p>
+<p><span style="font-family: '맑은 고딕';">분석중 멈추는 에러를 없애기 위해 적용함</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 11pt; font-family: '맑은 고딕'; font-weight: bold; color: #4f81bd;">기타 개선</span></p>
+<p style="border-color: #000000; border-style: solid; border-width: 1px; border-top: none; border-right: none; border-left: none;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- rmi 에러시 로그 수집하도록 개선</span></p>
+<p><span style="font-family: '맑은 고딕';">rmi를 통한 분석시 에러가 발생할 경우 로그를 수집하게 변경하였습니다.</span></p>
+<p><span style="font-family: '맑은 고딕';"> &nbsp;sparrow4/logs 폴더에 파일 생성</span></p>
+<p><span style="font-family: '맑은 고딕';"> &nbsp;upload-failed-whistle.log : 에러 발생한 시점의 sparrow-whistle.log를 백업해둠 20개까지</span></p>
+<p><span style="font-family: '맑은 고딕';"> &nbsp;upload-failed-engine-client.log : 엔진 클라이언트 upload 메소드 진행 상황을 상세히 기록함. 에러가 아니면 파일 기록안함</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- Semantic 분석시 summary 파일 처리 개선</span></p>
+<p><span style="font-family: '맑은 고딕';">semantic engine이 전분석단계에서 summary 파일을 생성시 디렉토리 세분화 해서 생성하였습니다.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- analysis 옵션으로 분석시 기존 map_files 폴더 삭제 </span></p>
+<p><span style="font-family: '맑은 고딕';">analysis 옵션으로 sparrow 폴더 분석시 기존 map_files 폴더를 삭제하도록 변경하였습니다.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- inter_class_level 0 일때 인터클래스 동작(pre) 하지 않도록 변경</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family: '맑은 고딕'; font-weight: bold;">- extract 할때 파일 개수 보이도록 프로그레스바 세분화</span></p>
+<p>&nbsp;</p>
 
 <!--ZOOMSTOP-->
 </div></div>
